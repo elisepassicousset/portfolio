@@ -97,9 +97,10 @@ h3 {
   padding: 14px 18px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(255, 250, 244, 0.88);
+  background: rgba(255, 250, 244, 0.72);
   box-shadow: 0 12px 34px rgba(36, 27, 24, 0.07);
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(28px) saturate(140%);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
 }
 
 .brand {
@@ -629,23 +630,35 @@ h3 {
 }
 
 .site-footer {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1.2fr auto 1fr;
+  align-items: start;
   justify-content: space-between;
-  gap: 24px;
+  gap: 32px;
   width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
-  padding: 28px 0 36px;
+  padding: 34px 0 42px;
   border-top: 1px solid var(--line);
 }
 
 .site-footer p {
+  max-width: 360px;
   font-size: 0.9rem;
 }
 
-.site-footer div {
+.footer-nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
+}
+
+.footer-contact {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.9rem;
 }
 
 .site-footer a {
@@ -753,7 +766,11 @@ h3 {
 
   .site-footer {
     align-items: flex-start;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contact {
+    justify-items: start;
   }
 }
 
