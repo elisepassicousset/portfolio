@@ -173,7 +173,7 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 420px);
   gap: 72px;
   align-items: center;
   min-height: calc(100vh - 96px);
@@ -214,8 +214,10 @@ h3 {
 }
 
 .hero-photo-wrap {
-  height: min(65vh, 620px);
-  min-height: 520px;
+  justify-self: end;
+  width: min(100%, 420px);
+  height: 500px;
+  min-height: 0;
   padding: 0;
   background: var(--beige);
   box-shadow: var(--shadow);
@@ -230,7 +232,7 @@ h3 {
   display: block;
   width: 100%;
   height: 100%;
-  min-height: 520px;
+  min-height: 0;
   object-fit: cover;
   object-position: 50% 42%;
 }
@@ -241,6 +243,10 @@ h3 {
   inset: 28px;
   border: 1px solid rgba(131, 35, 25, 0.18);
   border-radius: var(--radius);
+}
+
+.hero-visual.hero-photo-wrap::before {
+  content: none;
 }
 
 .visual-panel {
@@ -375,6 +381,7 @@ h3 {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
   gap: 22px;
 }
 
@@ -383,6 +390,8 @@ h3 {
 }
 
 .project-card {
+  display: flex;
+  min-height: 100%;
   min-width: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -400,13 +409,15 @@ h3 {
 
 .project-card-link {
   display: grid;
+  grid-template-rows: 230px 1fr;
   height: 100%;
 }
 
 .project-image {
   display: grid;
   place-items: center;
-  min-height: 230px;
+  height: 230px;
+  min-height: 0;
   padding: 24px;
   background:
     linear-gradient(135deg, rgba(131, 35, 25, 0.14), rgba(255, 250, 244, 0.86)),
@@ -425,6 +436,7 @@ h3 {
 
 .project-card-body {
   display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
   gap: 12px;
   padding: 22px;
 }
@@ -704,11 +716,13 @@ h3 {
   }
 
   .hero-photo-wrap {
-    height: 520px;
+    justify-self: stretch;
+    width: 100%;
+    height: 420px;
   }
 
   .hero-photo {
-    min-height: 420px;
+    min-height: 0;
   }
 
   .project-grid,
@@ -762,13 +776,13 @@ h3 {
   }
 
   .hero-photo-wrap {
-    height: 420px;
-    min-height: 340px;
+    height: 360px;
+    min-height: 0;
     padding: 0;
   }
 
   .hero-photo {
-    min-height: 340px;
+    min-height: 0;
   }
 
   .visual-panel-large {
@@ -791,7 +805,7 @@ h3 {
   }
 
   .project-image {
-    min-height: 200px;
+    height: 200px;
   }
 
   .cta-section {
