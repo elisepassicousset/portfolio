@@ -22,7 +22,7 @@ if (detailRoot && currentProject) {
         <p>${currentProject.context}</p>
       </article>
       <article>
-        <p class="eyebrow">Role</p>
+        <p class="eyebrow">Rôle</p>
         <p>${currentProject.role}</p>
       </article>
       <article>
@@ -34,7 +34,7 @@ if (detailRoot && currentProject) {
         <p>${currentProject.process}</p>
       </article>
       <article>
-        <p class="eyebrow">Resultat final</p>
+        <p class="eyebrow">Résultat final</p>
         <p>${currentProject.result}</p>
       </article>
       <article>
@@ -42,7 +42,7 @@ if (detailRoot && currentProject) {
         ${
           currentProject.link
             ? `<a class="text-link" href="${currentProject.link}" target="_blank" rel="noreferrer">Voir le projet en ligne</a>`
-            : `<p class="muted">Lien a ajouter prochainement.</p>`
+            : `<p class="muted">Lien à ajouter prochainement.</p>`
         }
       </article>
     </section>
@@ -52,7 +52,7 @@ if (detailRoot && currentProject) {
     <section class="page-hero">
       <p class="eyebrow">Projet introuvable</p>
       <h1>Ce projet n'est pas disponible.</h1>
-      <p>Retournez a la page projets pour consulter la selection complete.</p>
+      <p>Retournez à la page projets pour consulter la sélection complète.</p>
       <a class="btn btn-primary" href="projects.html">Voir les projets</a>
     </section>
   `;
