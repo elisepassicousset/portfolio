@@ -12,8 +12,6 @@ if (navToggle && siteNav) {
 const projects = window.portfolioProjects || [];
 
 function createProjectCard(project) {
-  const tools = project.tools || [];
-  const toolsPreview = tools.slice(0, 3).map((tool) => `<span>${tool}</span>`).join("");
   const status = project.status ? `<span class="project-status">${project.status}</span>` : "";
 
   const article = document.createElement("article");
@@ -29,10 +27,6 @@ function createProjectCard(project) {
           ${status}
         </div>
         <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <div class="project-tools-preview" aria-label="Logiciels utilisés">
-          ${toolsPreview || "<span>Logiciels à ajouter</span>"}
-        </div>
         <span class="project-cta">Voir le projet</span>
       </div>
     </a>
