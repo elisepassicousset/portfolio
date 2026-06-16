@@ -11,6 +11,7 @@ window.portfolioProjects = [
     objectives: "Rendre la gestion des piscines plus claire, plus intelligente et plus responsable grâce à une interface simple et fiable.",
     process: "Recherche des besoins, définition des parcours, wireframes, création d'un système d'interface, prototypage et ajustements UX.",
     result: "Projet en cours : l'application est structurée, accessible et orientée action, avec des ajustements UX encore en progression.",
+    image: "assets/images/projects/sondelia.svg",
     tools: ["Figma", "FigJam", "Adobe Illustrator"],
     photoSlots: 4,
     link: ""
@@ -25,6 +26,7 @@ window.portfolioProjects = [
     objectives: "Créer une identité distinctive, adaptable aux supports digitaux et imprimés.",
     process: "Recherche d'univers, expérimentation graphique, création de signes visuels et application sur supports de festival.",
     result: "Une identité expressive, dynamique et cohérente avec l'esprit d'un événement culturel.",
+    image: "assets/images/projects/the-y-festival.png",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
     photoSlots: 3,
     link: ""
@@ -39,6 +41,7 @@ window.portfolioProjects = [
     objectives: "Rendre la boutique plus claire, plus élégante et plus efficace pour accompagner l'achat.",
     process: "Analyse de l'existant, identification des points de friction, création de maquettes, harmonisation UI et préparation des contenus Shopify.",
     result: "Une expérience d'achat plus fluide, mieux structurée et plus en accord avec l'univers de marque.",
+    image: "assets/images/projects/mademoiselle-azalee.webp",
     tools: ["Shopify", "Figma", "Canva"],
     photoSlots: 3,
     link: ""

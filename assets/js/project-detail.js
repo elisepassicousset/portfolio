@@ -12,6 +12,9 @@ if (detailRoot && currentProject) {
   const tools = currentProject.tools || [];
   const toolItems = tools.map((tool) => `<span>${tool}</span>`).join("");
   const status = currentProject.status ? `<span class="project-status project-status-large">${currentProject.status}</span>` : "";
+  const detailImage = currentProject.image
+    ? `<img src="${currentProject.image}" alt="">`
+    : `<span>${currentProject.title}</span>`;
 
   document.title = `${currentProject.title} | Elise Passicousset`;
   detailRoot.innerHTML = `
@@ -25,8 +28,8 @@ if (detailRoot && currentProject) {
       <p>${currentProject.description}</p>
     </section>
 
-    <section class="project-detail-image" aria-label="Image placeholder du projet">
-      <span>${currentProject.title}</span>
+    <section class="project-detail-image" aria-label="Image du projet">
+      ${detailImage}
     </section>
 
     <section class="section project-detail-grid">

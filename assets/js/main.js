@@ -13,13 +13,16 @@ const projects = window.portfolioProjects || [];
 
 function createProjectCard(project) {
   const status = project.status ? `<span class="project-status">${project.status}</span>` : "";
+  const projectImage = project.image
+    ? `<img src="${project.image}" alt="">`
+    : `<span>${project.title}</span>`;
 
   const article = document.createElement("article");
   article.className = "project-card";
   article.innerHTML = `
     <a class="project-card-link" href="project.html?id=${project.id}" aria-label="Voir le projet ${project.title}">
       <div class="project-image" aria-hidden="true">
-        <span>${project.title}</span>
+        ${projectImage}
       </div>
       <div class="project-card-body">
         <div class="project-meta">
