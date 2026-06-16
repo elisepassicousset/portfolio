@@ -10,7 +10,7 @@
   --line: rgba(36, 27, 24, 0.12);
   --shadow: 0 20px 50px rgba(36, 27, 24, 0.08);
   --radius: 8px;
-  --max-width: 1160px;
+  --max-width: 1320px;
 }
 
 * {
@@ -92,7 +92,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  width: min(calc(100% - 32px), var(--max-width));
+  width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
   padding: 14px 18px;
   border: 1px solid var(--line);
@@ -152,7 +152,7 @@ h3 {
 .project-detail-hero,
 .project-detail-image,
 .cta-section {
-  width: min(calc(100% - 32px), var(--max-width));
+  width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
 }
 
@@ -173,8 +173,8 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.8fr);
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  gap: 72px;
   align-items: center;
   min-height: calc(100vh - 96px);
   padding-top: 64px;
@@ -633,7 +633,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  width: min(calc(100% - 32px), var(--max-width));
+  width: min(calc(100% - 48px), var(--max-width));
   margin: 0 auto;
   padding: 28px 0 36px;
   border-top: 1px solid var(--line);
