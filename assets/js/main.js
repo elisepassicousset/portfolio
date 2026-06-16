@@ -12,6 +12,10 @@ if (navToggle && siteNav) {
 const projects = window.portfolioProjects || [];
 
 function createProjectCard(project) {
+  const tools = project.tools || [];
+  const toolsPreview = tools.slice(0, 3).map((tool) => `<span>${tool}</span>`).join("");
+  const status = project.status ? `<span class="project-status">${project.status}</span>` : "";
+
   const article = document.createElement("article");
   article.className = "project-card";
   article.innerHTML = `
@@ -20,9 +24,15 @@ function createProjectCard(project) {
         <span>${project.title}</span>
       </div>
       <div class="project-card-body">
-        <p class="project-category">${project.category}</p>
+        <div class="project-meta">
+          <p class="project-category">${project.category}</p>
+          ${status}
+        </div>
         <h3>${project.title}</h3>
         <p>${project.description}</p>
+        <div class="project-tools-preview" aria-label="Logiciels utilisés">
+          ${toolsPreview || "<span>Logiciels à ajouter</span>"}
+        </div>
         <span class="project-cta">Voir le projet</span>
       </div>
     </a>
@@ -31,7 +41,7 @@ function createProjectCard(project) {
 }
 
 document.querySelectorAll("[data-projects-preview]").forEach((container) => {
-  projects.slice(-3).forEach((project) => container.appendChild(createProjectCard(project)));
+  projects.slice(0, 3).forEach((project) => container.appendChild(createProjectCard(project)));
 });
 
 document.querySelectorAll("[data-projects-grid]").forEach((container) => {
