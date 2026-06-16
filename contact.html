@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contacter Elise Passicousset, UX/UI Designer junior.">
+    <title>Contact | Elise Passicousset</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Accueil Elise Passicousset">Elise Passicousset</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="projects.html">Projets</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <p class="eyebrow">Contact</p>
+        <h1>Parlons de votre prochain projet.</h1>
+        <p>
+          Je suis disponible pour echanger autour d'un projet UX/UI, d'une refonte, d'une identite visuelle ou d'une opportunite professionnelle.
+        </p>
+      </section>
+
+      <section class="section contact-layout">
+        <form class="contact-form" action="mailto:elise.passicousset@orange.fr" method="post" enctype="text/plain">
+          <label>
+            Nom
+            <input type="text" name="nom" autocomplete="name" required>
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            Objet
+            <input type="text" name="objet" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="7" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Envoyer le message</button>
+        </form>
+
+        <aside class="contact-card">
+          <p class="eyebrow">Coordonnees</p>
+          <!-- Remplacer cette adresse par l'e-mail professionnel final. -->
+          <a class="email-link" href="mailto:elise.passicousset@orange.fr">elise.passicousset@orange.fr</a>
+          <div class="social-links" aria-label="Liens sociaux">
+            <!-- Remplacer les # par les liens LinkedIn, Behance et portfolio existant. -->
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Behance">Behance</a>
+            <a href="#" aria-label="Portfolio existant">Portfolio</a>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Elise Passicousset</p>
+      <div>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projets</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/projects-data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
