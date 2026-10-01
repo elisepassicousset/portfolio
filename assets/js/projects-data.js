@@ -11,7 +11,7 @@ window.portfolioProjects = [
     objectives: "Rendre la gestion des piscines plus claire, plus intelligente et plus responsable grâce à une interface simple et fiable.",
     process: "Recherche des besoins, définition des parcours, wireframes, création d'un système d'interface, prototypage et ajustements UX.",
     result: "Projet en cours : l'application est structurée, accessible et orientée action, avec des ajustements UX encore en progression.",
-    image: "assets/images/projects/sondelia.svg",
+    image: "assets/images/projects/sondelia.png",
     tools: ["Figma", "FigJam", "Adobe Illustrator"],
     photoSlots: 4,
     link: ""
@@ -47,34 +47,6 @@ window.portfolioProjects = [
     link: ""
   },
   {
-    id: "passeli-photo",
-    title: "Passeli_photo",
-    category: "Portfolio visuel",
-    description: "Projet personnel de photographie et de portfolio visuel.",
-    context: "Passeli_photo est un espace personnel dédié à la photographie et à la mise en valeur d'un regard visuel.",
-    role: "Curation, direction artistique, organisation du contenu et réflexion d'expérience.",
-    objectives: "Présenter des images avec sobriété, clarté et impact, tout en conservant une navigation simple.",
-    process: "Sélection des visuels, organisation par rythmes et ambiances, création d'une structure de présentation épurée.",
-    result: "Un portfolio visuel personnel, élégant et facile à parcourir.",
-    tools: ["Adobe Lightroom", "Adobe Photoshop", "Instagram"],
-    photoSlots: 6,
-    link: ""
-  },
-  {
-    id: "eriu",
-    title: "Eriu",
-    category: "Branding",
-    description: "Projet de création d'identité visuelle avec une direction artistique claire.",
-    context: "Eriu est un projet de branding centré sur la création d'une identité forte, élégante et cohérente.",
-    role: "Création d'identité visuelle, choix typographiques, palette couleur et principes graphiques.",
-    objectives: "Définir une direction artistique lisible et adaptable sur plusieurs supports.",
-    process: "Exploration du positionnement, recherche graphique, tests de composition et formalisation des règles d'identité.",
-    result: "Une identité visuelle structurée, expressive et prête à être déclinée.",
-    tools: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
-    photoSlots: 4,
-    link: ""
-  },
-  {
     id: "pinus-esquirou",
     title: "Pinus Esquirou",
     category: "Direction artistique",
@@ -84,21 +56,8 @@ window.portfolioProjects = [
     objectives: "Créer un univers reconnaissable, élégant et connecté à son environnement naturel.",
     process: "Analyse de références, création de moodboards, choix d'une direction graphique, puis déclinaison des éléments visuels.",
     result: "Une identité claire et chaleureuse, adaptée à une communication visuelle soignée.",
+    image: "assets/images/projects/pinus-esquirou.jpg",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "InDesign"],
-    photoSlots: 4,
-    link: ""
-  },
-  {
-    id: "child-wood",
-    title: "Child Wood",
-    category: "Identité visuelle",
-    description: "Projet autour d'une marque ou d'un univers lié au bois, à l'enfance et à une identité naturelle.",
-    context: "Child Wood explore un univers doux et naturel, pensé autour de l'enfance, des matières brutes et d'une identité chaleureuse.",
-    role: "Direction artistique, recherche visuelle, création d'identité et déclinaisons graphiques.",
-    objectives: "Construire une image de marque rassurante, sensible et facilement identifiable.",
-    process: "Recherche d'inspirations, définition d'une palette naturelle, exploration typographique, création de pistes visuelles puis harmonisation de l'ensemble.",
-    result: "Un univers cohérent, doux et lisible, capable d'installer une présence de marque naturelle et professionnelle.",
-    tools: ["Adobe Illustrator", "Adobe Photoshop", "Canva"],
     photoSlots: 4,
     link: ""
   }

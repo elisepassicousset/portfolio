@@ -12,7 +12,6 @@ if (navToggle && siteNav) {
 const projects = window.portfolioProjects || [];
 
 function createProjectCard(project) {
-  const status = project.status ? `<span class="project-status">${project.status}</span>` : "";
   const projectImage = project.image
     ? `<img src="${project.image}" alt="">`
     : `<span>${project.title}</span>`;
@@ -25,12 +24,7 @@ function createProjectCard(project) {
         ${projectImage}
       </div>
       <div class="project-card-body">
-        <div class="project-meta">
-          <p class="project-category">${project.category}</p>
-          ${status}
-        </div>
         <h3>${project.title}</h3>
-        <span class="project-cta">Voir le projet</span>
       </div>
     </a>
   `;
