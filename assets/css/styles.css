@@ -348,10 +348,17 @@ h3 {
 .back-link {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   width: fit-content;
   color: var(--red);
   font-weight: 600;
   transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.back-link::before {
+  content: "←";
+  font-size: 1.1em;
+  line-height: 1;
 }
 
 .text-link:hover,
@@ -658,6 +665,7 @@ h3 {
 .project-score-section {
   display: grid;
   gap: 28px;
+  padding-top: 34px;
 }
 
 .score-list {
