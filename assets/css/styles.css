@@ -762,7 +762,8 @@ h3 {
 }
 
 .score-content h2 {
-  max-width: 920px;
+  width: 100%;
+  max-width: none;
   font-size: clamp(1.2rem, 2vw, 1.65rem);
   line-height: 1.24;
 }
