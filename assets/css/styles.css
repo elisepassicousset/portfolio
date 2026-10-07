@@ -516,6 +516,81 @@ h3 {
   font-size: clamp(1.65rem, 3vw, 3.2rem);
 }
 
+.about-split-card {
+  grid-template-rows: auto auto 1fr auto;
+  height: 100%;
+}
+
+.about-split-card h2 {
+  font-size: clamp(1.45rem, 2.4vw, 2.25rem);
+}
+
+.about-split-card .content-stack p {
+  font-size: 0.95rem;
+  line-height: 1.68;
+}
+
+.process-steps {
+  align-self: end;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.process-steps div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  padding: 12px 10px;
+  border-top: 2px solid var(--red-soft);
+  background: rgba(255, 255, 255, 0.38);
+}
+
+.process-steps span {
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.process-steps h3 {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.process-steps p {
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.personal-photo-grid {
+  align-self: end;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.personal-photo-grid div {
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  border: 1px dashed rgba(131, 35, 25, 0.34);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(131, 35, 25, 0.08), rgba(255, 250, 244, 0.74)),
+    var(--beige);
+  overflow: hidden;
+}
+
+.personal-photo-grid span {
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .about-timeline {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1168,6 +1243,10 @@ h3 {
   .experience-companies {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .process-steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 700px) {
@@ -1277,6 +1356,15 @@ h3 {
 
   .experience-companies {
     grid-template-columns: 1fr;
+  }
+
+  .process-steps,
+  .personal-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .personal-photo-grid div {
+    min-height: 190px;
   }
 
   .score-visual-grid {
