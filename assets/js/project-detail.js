@@ -12,9 +12,6 @@ if (detailRoot && currentProject) {
   const tools = currentProject.tools || [];
   const toolItems = tools.map((tool) => `<span>${tool}</span>`).join("");
   const status = currentProject.status ? `<span class="project-status project-status-large">${currentProject.status}</span>` : "";
-  const detailImage = currentProject.image
-    ? `<img src="${currentProject.image}" alt="">`
-    : `<span>${currentProject.title}</span>`;
   const scoreSections = currentProject.score
     ? currentProject.score.map((section) => `
       <article class="score-card">
@@ -46,10 +43,6 @@ if (detailRoot && currentProject) {
       </div>
       <h1>${currentProject.title}</h1>
       <p>${currentProject.description}</p>
-    </section>
-
-    <section class="project-detail-image project-detail-cover" aria-label="Image du projet">
-      ${detailImage}
     </section>
 
     <section class="section project-score-section">
