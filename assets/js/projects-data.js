@@ -5,7 +5,7 @@ window.portfolioProjects = [
     title: "Sondélia",
     category: "UX/UI Mobile",
     status: "Projet en cours",
-    description: "Projet UX/UI complet autour d'une application mobile et d'un outil professionnel pour la gestion intelligente et écoresponsable des piscines.",
+    description: "Projet UX/UI autour d'une application mobile conçue pour simplifier l'entretien d'une piscine, du suivi de la qualité de l'eau au pilotage des équipements connectés.",
     context: "Sondélia est un projet complet autour d'une solution mobile et professionnelle pour suivre, comprendre et optimiser la gestion des piscines.",
     role: "Recherche utilisateur, UX design, UI design, wireframes, maquettes Figma, prototypage et design system.",
     objectives: "Rendre la gestion des piscines plus claire, plus intelligente et plus responsable grâce à une interface simple et fiable.",

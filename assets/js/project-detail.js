@@ -11,7 +11,6 @@ if (detailRoot && currentProject) {
   `).join("");
   const tools = currentProject.tools || [];
   const toolItems = tools.map((tool) => `<span>${tool}</span>`).join("");
-  const status = currentProject.status ? `<span class="project-status project-status-large">${currentProject.status}</span>` : "";
   const scoreSections = currentProject.score
     ? currentProject.score.map((section) => `
       <article class="score-card">
@@ -37,19 +36,11 @@ if (detailRoot && currentProject) {
   detailRoot.innerHTML = `
     <section class="project-detail-hero">
       <a class="back-link" href="projects.html">Retour aux projets</a>
-      <div class="project-detail-meta">
-        <p class="eyebrow">${currentProject.category}</p>
-        ${status}
-      </div>
       <h1>${currentProject.title}</h1>
       <p>${currentProject.description}</p>
     </section>
 
     <section class="section project-score-section">
-      <div class="section-heading">
-        <p class="eyebrow">Méthode SCORE</p>
-        <h2>Du constat à la solution</h2>
-      </div>
       <div class="score-list">
         ${scoreSections || `
           <article class="score-card">
