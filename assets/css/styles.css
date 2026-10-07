@@ -475,16 +475,16 @@ h3 {
 .about-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .about-tags span {
-  padding: 9px 12px;
+  padding: 7px 10px;
   border: 1px solid var(--red-soft);
   border-radius: var(--radius);
   color: var(--red);
   background: var(--beige-soft);
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   font-weight: 600;
 }
 
