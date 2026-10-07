@@ -813,6 +813,15 @@ h3 {
   text-transform: uppercase;
 }
 
+.desktop-screen-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  object-fit: contain;
+  background: var(--paper);
+}
+
 .desktop-chin {
   height: 28px;
   border-radius: 0 0 12px 12px;

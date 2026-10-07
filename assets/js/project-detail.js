@@ -39,7 +39,7 @@ if (detailRoot && currentProject) {
         <div class="project-cta-mockup" aria-hidden="true">
           <div class="desktop-frame">
             <div class="desktop-screen">
-              <div class="desktop-placeholder">Capture à ajouter</div>
+              <img class="desktop-screen-image" src="assets/images/projects/sondelia-site-capture.png" alt="">
             </div>
             <div class="desktop-chin"></div>
             <div class="desktop-stand"></div>
