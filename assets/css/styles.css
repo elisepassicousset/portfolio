@@ -574,13 +574,20 @@ h3 {
 .personal-photo-grid div {
   display: grid;
   place-items: center;
-  min-height: 220px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   border: 1px dashed rgba(131, 35, 25, 0.34);
   border-radius: var(--radius);
   background:
     linear-gradient(135deg, rgba(131, 35, 25, 0.08), rgba(255, 250, 244, 0.74)),
     var(--beige);
   overflow: hidden;
+}
+
+.personal-photo-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .personal-photo-grid span {
@@ -669,6 +676,10 @@ h3 {
   border-left: 3px solid var(--red);
   border-radius: var(--radius);
   background: var(--beige-soft);
+}
+
+.about-current-card {
+  padding-bottom: 26px;
 }
 
 .about-highlight {
@@ -1361,10 +1372,6 @@ h3 {
   .process-steps,
   .personal-photo-grid {
     grid-template-columns: 1fr;
-  }
-
-  .personal-photo-grid div {
-    min-height: 190px;
   }
 
   .score-visual-grid {
