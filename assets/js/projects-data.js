@@ -12,6 +12,7 @@ window.portfolioProjects = [
     process: "Recherche des besoins, définition des parcours, wireframes, création d'un système d'interface, prototypage et ajustements UX.",
     result: "Projet en cours : l'application est structurée, accessible et orientée action, avec des ajustements UX encore en progression.",
     image: "assets/images/projects/sondelia.png",
+    ctaImage: "assets/images/projects/sondelia-site-capture.png",
     tools: ["Figma", "FigJam", "Adobe Illustrator"],
     photoSlots: 6,
     score: [
@@ -143,6 +144,7 @@ window.portfolioProjects = [
     process: "Analyse de l'existant, identification des points de friction, création de maquettes, harmonisation UI et préparation des contenus Shopify.",
     result: "Une expérience d'achat plus fluide, mieux structurée et plus en accord avec l'univers de marque.",
     image: "assets/images/projects/mademoiselle-azalee.webp",
+    ctaImage: "assets/images/projects/mademoiselle-azalee-site-capture.png",
     tools: ["Shopify", "Figma", "Canva"],
     photoSlots: 3,
     score: [
@@ -194,7 +196,7 @@ window.portfolioProjects = [
         ]
       }
     ],
-    link: ""
+    link: "https://mademoiselleazalee.com"
   },
   {
     id: "pinus-esquirou",

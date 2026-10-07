@@ -36,9 +36,11 @@ if (detailRoot && currentProject) {
           <h2>Voir le projet en ligne</h2>
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
-        <div class="project-cta-mockup" aria-hidden="true">
-          <img class="project-cta-image" src="assets/images/projects/sondelia-site-capture.png" alt="">
-        </div>
+        ${currentProject.ctaImage ? `
+          <div class="project-cta-mockup" aria-hidden="true">
+            <img class="project-cta-image" src="${currentProject.ctaImage}" alt="">
+          </div>
+        ` : ""}
       </section>
     `
     : "";
