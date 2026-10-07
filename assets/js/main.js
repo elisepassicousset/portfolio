@@ -38,3 +38,24 @@ document.querySelectorAll("[data-projects-preview]").forEach((container) => {
 document.querySelectorAll("[data-projects-grid]").forEach((container) => {
   projects.forEach((project) => container.appendChild(createProjectCard(project)));
 });
+
+const backToTopButton = document.createElement("button");
+backToTopButton.className = "back-to-top";
+backToTopButton.type = "button";
+backToTopButton.setAttribute("aria-label", "Retour en haut");
+backToTopButton.innerHTML = "<span aria-hidden=\"true\">↑</span>";
+document.body.appendChild(backToTopButton);
+
+function toggleBackToTopButton() {
+  backToTopButton.classList.toggle("is-visible", window.scrollY > 360);
+}
+
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
+toggleBackToTopButton();
