@@ -3,12 +3,6 @@ const params = new URLSearchParams(window.location.search);
 const currentProject = projects.find((project) => project.id === params.get("id"));
 
 if (detailRoot && currentProject) {
-  const photoSlots = currentProject.photoSlots || 3;
-  const photoPlaceholders = Array.from({ length: photoSlots }, (_, index) => `
-    <div class="project-photo-slot">
-      <span>Visuel ${index + 1}</span>
-    </div>
-  `).join("");
   const heroVisual = currentProject.image
     ? `
       <div class="project-detail-hero-visual" aria-hidden="true">
@@ -23,6 +17,13 @@ if (detailRoot && currentProject) {
           <p class="eyebrow">${section.title}</p>
           <h2>${section.heading}</h2>
           ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+        </div>
+        <div class="score-visual-grid" aria-label="Visuels ${section.title}">
+          ${Array.from({ length: section.visualSlots || 3 }, (_, index) => `
+            <div class="score-visual-slot">
+              <span>Visuel ${index + 1}</span>
+            </div>
+          `).join("")}
         </div>
       </article>
     `).join("")
@@ -63,15 +64,6 @@ if (detailRoot && currentProject) {
             </div>
           </article>
         `}
-      </div>
-    </section>
-
-    <section class="section section-compact">
-      <div class="section-heading">
-        <p class="eyebrow">Visuels</p>
-      </div>
-      <div class="project-photo-grid">
-        ${photoPlaceholders}
       </div>
     </section>
 

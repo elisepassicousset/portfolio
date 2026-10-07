@@ -50,7 +50,7 @@ window.portfolioProjects = [
       },
       {
         title: "Résultats",
-        heading: "Un prototype complet pour suivre plus simplement l'état d'une piscine.",
+        heading: "Une expérience conçue pour simplifier la gestion quotidienne d'une piscine.",
         paragraphs: [
           "Après un an de travail, Sondélia a abouti à la conception d'un prototype d'application mobile permettant à un propriétaire de suivre plus simplement l'état de sa piscine.",
           "L'utilisateur peut retrouver les principales données de son bassin dans une même interface, consulter leur évolution, recevoir des alertes et accéder à des conseils lorsqu'une intervention est nécessaire. Selon l'abonnement choisi, l'expérience peut également être étendue au pilotage à distance de certains équipements connectés.",

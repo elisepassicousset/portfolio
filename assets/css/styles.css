@@ -726,6 +726,32 @@ h3 {
   max-width: 920px;
 }
 
+.score-visual-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.score-visual-slot {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  border: 1px dashed rgba(131, 35, 25, 0.34);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(131, 35, 25, 0.07), rgba(255, 250, 244, 0.82)),
+    var(--beige-soft);
+}
+
+.score-visual-slot span {
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .project-cta-section {
   display: grid;
   gap: 18px;
@@ -952,6 +978,10 @@ h3 {
 
   .score-card {
     padding: 22px;
+  }
+
+  .score-visual-grid {
+    grid-template-columns: 1fr;
   }
 
   .project-cta-section {
