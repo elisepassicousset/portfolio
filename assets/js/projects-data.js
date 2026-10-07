@@ -13,8 +13,60 @@ window.portfolioProjects = [
     result: "Projet en cours : l'application est structurée, accessible et orientée action, avec des ajustements UX encore en progression.",
     image: "assets/images/projects/sondelia.png",
     tools: ["Figma", "FigJam", "Adobe Illustrator"],
-    photoSlots: 4,
-    link: ""
+    photoSlots: 6,
+    score: [
+      {
+        letter: "S",
+        title: "Situation",
+        heading: "Un projet de fin d'études mené comme une démarche produit complète.",
+        paragraphs: [
+          "Sondélia est un projet fictif que j'ai imaginé et développé pendant un an dans le cadre de mon projet de fin d'études en Mastère Product Designer UX/UI. Présenté lors de ma soutenance, il m'a permis de mener une démarche de Product Design complète, depuis la recherche d'une problématique jusqu'à la conception et au prototypage de la solution.",
+          "Le projet part d'un constat : l'entretien d'une piscine demande de surveiller régulièrement plusieurs paramètres, comme le pH, le chlore, la température, le TAC, le TH ou encore le niveau d'eau. Ces informations peuvent être difficiles à interpréter, notamment pour les propriétaires qui maîtrisent peu l'entretien de leur bassin."
+        ]
+      },
+      {
+        letter: "C",
+        title: "Compréhension",
+        heading: "Comprendre les usages, les attentes et les freins des propriétaires.",
+        paragraphs: [
+          "J'ai commencé par une phase de recherche afin de mieux comprendre le marché de la piscine, les habitudes des propriétaires et les difficultés rencontrées dans l'entretien d'un bassin. J'ai étudié les solutions déjà présentes sur le marché et réalisé un benchmark afin d'identifier leurs fonctionnalités, leurs points forts et les opportunités d'amélioration.",
+          "J'ai également réalisé un questionnaire qui m'a permis de recueillir 49 réponses, dont 45 provenant de particuliers. Cette recherche m'a aidée à mieux comprendre les attentes autour de la simplicité d'utilisation, du suivi à distance, des alertes et de la maîtrise des consommations.",
+          "À partir de ces recherches, j'ai défini plusieurs profils utilisateurs, dont Jean-Paul, propriétaire expérimenté, et Émilie, plus novice dans la gestion de sa piscine. L'objectif était de concevoir une application suffisamment accessible pour accompagner différents niveaux de connaissance."
+        ]
+      },
+      {
+        letter: "O",
+        title: "Objectif",
+        heading: "Rendre les données techniques plus simples à comprendre et à utiliser.",
+        paragraphs: [
+          "J'ai imaginé Sondélia, une application mobile connectée à une sonde permettant de centraliser les principales informations de la piscine. L'objectif est de rendre les données techniques plus simples à comprendre, d'alerter l'utilisateur lorsqu'une intervention est nécessaire et de lui donner des conseils adaptés pour faciliter l'entretien de son bassin.",
+          "J'ai également imaginé deux niveaux d'abonnement. Le premier est centré sur le suivi et la qualité de l'eau. Le second complète ces fonctionnalités avec la possibilité de connecter et de gérer à distance certains équipements de la piscine grâce à des modules connectés."
+        ]
+      },
+      {
+        letter: "R",
+        title: "Réalisation",
+        heading: "Structurer, prototyper, tester puis améliorer la solution.",
+        paragraphs: [
+          "J'ai travaillé sur les fonctionnalités et leur priorisation. L'application permet notamment de consulter les principales données du bassin, de suivre leur évolution grâce à un historique, de recevoir des alertes lorsqu'un paramètre nécessite une attention et d'accéder à des conseils adaptés. L'utilisateur peut également renseigner les caractéristiques de sa piscine et de son installation afin de personnaliser son expérience.",
+          "J'ai progressivement construit l'architecture de l'information, les parcours utilisateurs, les wireframes puis les interfaces finales sur Figma. J'ai également créé un système de composants afin de maintenir une cohérence graphique et fonctionnelle entre les différents écrans.",
+          "Une partie importante du projet a été consacrée aux tests utilisateurs. Ils m'ont permis de confronter mes choix à la compréhension réelle des utilisateurs et de faire évoluer certaines interfaces. J'ai notamment retravaillé la visibilité des conseils et des alertes, la présentation des abonnements, certains boutons et la manière de représenter les informations liées au bassin.",
+          "Après un an de travail, Sondélia a abouti à la conception d'un prototype d'application mobile permettant à un propriétaire de suivre plus simplement l'état de sa piscine. L'utilisateur peut retrouver les principales données de son bassin dans une même interface, consulter leur évolution, recevoir des alertes et accéder à des conseils lorsqu'une intervention est nécessaire."
+        ]
+      },
+      {
+        letter: "E",
+        title: "Enseignements",
+        heading: "Apprendre à justifier, prioriser et faire évoluer une idée.",
+        paragraphs: [
+          "Sondélia est le projet qui m'a permis de mettre en pratique l'ensemble des compétences développées pendant mon Mastère. Le fait de travailler dessus pendant un an m'a appris à faire évoluer une idée initiale plutôt qu'à chercher immédiatement une solution graphique.",
+          "J'ai surtout appris à justifier mes décisions. Mes choix d'interface devaient répondre à un besoin identifié et être compréhensibles par les utilisateurs. Les tests m'ont montré que certains éléments qui me semblaient évidents ne l'étaient pas nécessairement pour les autres, ce qui m'a amenée à modifier et simplifier plusieurs parties de l'application.",
+          "Ce projet m'a également appris à prioriser. Sondélia pouvait intégrer de nombreuses fonctionnalités, mais j'ai dû déterminer lesquelles étaient réellement nécessaires pour construire une première version cohérente et compréhensible.",
+          "Enfin, j'ai développé une vision plus globale du Product Design. J'ai travaillé sur la recherche utilisateur, le benchmark, la définition des besoins, l'architecture de l'information, les parcours, l'UI Design, le prototypage, les tests utilisateurs, les itérations et la réflexion autour de la commercialisation de la solution."
+        ]
+      }
+    ],
+    link: "https://sondelia.vercel.app"
   },
   {
     id: "the-y-festival",

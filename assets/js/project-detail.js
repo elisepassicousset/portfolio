@@ -6,7 +6,7 @@ if (detailRoot && currentProject) {
   const photoSlots = currentProject.photoSlots || 3;
   const photoPlaceholders = Array.from({ length: photoSlots }, (_, index) => `
     <div class="project-photo-slot">
-      <span>Photo ${index + 1}</span>
+      <span>Visuel ${index + 1}</span>
     </div>
   `).join("");
   const tools = currentProject.tools || [];
@@ -15,6 +15,27 @@ if (detailRoot && currentProject) {
   const detailImage = currentProject.image
     ? `<img src="${currentProject.image}" alt="">`
     : `<span>${currentProject.title}</span>`;
+  const scoreSections = currentProject.score
+    ? currentProject.score.map((section) => `
+      <article class="score-card">
+        <div class="score-letter" aria-hidden="true">${section.letter}</div>
+        <div class="score-content">
+          <p class="eyebrow">${section.title}</p>
+          <h2>${section.heading}</h2>
+          ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+        </div>
+      </article>
+    `).join("")
+    : "";
+  const projectCta = currentProject.link
+    ? `
+      <section class="project-cta-section">
+        <p class="eyebrow">Découvrir</p>
+        <h2>Voir le projet en ligne</h2>
+        <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
+      </section>
+    `
+    : "";
 
   document.title = `${currentProject.title} | Elise Passicousset`;
   detailRoot.innerHTML = `
@@ -28,56 +49,52 @@ if (detailRoot && currentProject) {
       <p>${currentProject.description}</p>
     </section>
 
-    <section class="project-detail-image" aria-label="Image du projet">
+    <section class="project-detail-image project-detail-cover" aria-label="Image du projet">
       ${detailImage}
     </section>
 
-    <section class="section project-detail-grid">
-      <article>
-        <p class="eyebrow">Contexte</p>
-        <p>${currentProject.context}</p>
-      </article>
-      <article>
-        <p class="eyebrow">Rôle</p>
-        <p>${currentProject.role}</p>
-      </article>
-      <article>
-        <p class="eyebrow">Objectifs</p>
-        <p>${currentProject.objectives}</p>
-      </article>
-      <article>
-        <p class="eyebrow">Processus</p>
-        <p>${currentProject.process}</p>
-      </article>
-      <article>
-        <p class="eyebrow">Résultat final</p>
-        <p>${currentProject.result}</p>
-      </article>
-      <article>
-        <p class="eyebrow">Logiciels utilisés</p>
-        <div class="tools-list">
-          ${toolItems || "<span>À compléter</span>"}
-        </div>
-      </article>
-      <article>
-        <p class="eyebrow">Lien externe</p>
-        ${
-          currentProject.link
-            ? `<a class="text-link" href="${currentProject.link}" target="_blank" rel="noreferrer">Voir le projet en ligne</a>`
-            : `<p class="muted">Lien à ajouter prochainement.</p>`
-        }
-      </article>
+    <section class="section project-score-section">
+      <div class="section-heading">
+        <p class="eyebrow">Méthode SCORE</p>
+        <h2>Du constat à la solution</h2>
+      </div>
+      <div class="score-list">
+        ${scoreSections || `
+          <article class="score-card">
+            <div class="score-letter" aria-hidden="true">S</div>
+            <div class="score-content">
+              <p class="eyebrow">Synthèse</p>
+              <h2>${currentProject.objectives}</h2>
+              <p>${currentProject.context}</p>
+              <p>${currentProject.process}</p>
+              <p>${currentProject.result}</p>
+            </div>
+          </article>
+        `}
+      </div>
     </section>
 
     <section class="section section-compact">
       <div class="section-heading">
-        <p class="eyebrow">Photos</p>
-        <h2>Emplacements visuels du projet</h2>
+        <p class="eyebrow">Visuels</p>
+        <h2>Emplacements à compléter</h2>
       </div>
       <div class="project-photo-grid">
         ${photoPlaceholders}
       </div>
     </section>
+
+    <section class="section section-compact project-tools-section">
+      <div class="section-heading">
+        <p class="eyebrow">Outils</p>
+        <h2>Logiciels utilisés</h2>
+      </div>
+      <div class="tools-list">
+        ${toolItems || "<span>À compléter</span>"}
+      </div>
+    </section>
+
+    ${projectCta}
   `;
 } else if (detailRoot) {
   detailRoot.innerHTML = `
