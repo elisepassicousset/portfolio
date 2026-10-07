@@ -35,7 +35,7 @@
       </section>
 
       <section class="section contact-layout">
-        <form class="contact-form" action="mailto:elise.passicousset@outlook.com" method="post" enctype="text/plain">
+        <form class="contact-form" action="/api/contact" method="post" data-contact-form>
           <label>
             Nom
             <input type="text" name="nom" autocomplete="name" required>
@@ -52,7 +52,8 @@
             Message
             <textarea name="message" rows="7" required></textarea>
           </label>
-          <button class="btn btn-primary" type="submit">Envoyer</button>
+          <button class="btn btn-primary" type="submit" data-contact-submit>Envoyer</button>
+          <p class="form-status" data-contact-status role="status" aria-live="polite"></p>
         </form>
 
         <aside class="contact-card">
@@ -67,9 +68,9 @@
             <p>E-mail</p>
             <a class="email-link" href="mailto:elise.passicousset@outlook.com">elise.passicousset@outlook.com</a>
           </div>
-          <div class="social-links" aria-label="Liens sociaux">
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Behance">Behance</a>
+          <div class="contact-email">
+            <p>LinkedIn</p>
+            <a class="email-link" href="https://www.linkedin.com/in/elise-passicousset" target="_blank" rel="noreferrer">www.linkedin.com/in/elise-passicousset</a>
           </div>
           <a class="btn btn-secondary" href="#" aria-disabled="true">Télécharger mon CV</a>
         </aside>
@@ -92,5 +93,6 @@
 
     <script src="assets/js/projects-data.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
   </body>
 </html>
