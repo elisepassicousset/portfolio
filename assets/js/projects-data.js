@@ -83,6 +83,7 @@ window.portfolioProjects = [
     process: "Analyse de l'existant, refonte de l'architecture, conception des maquettes Figma, travail des interactions et déclinaisons print et web.",
     result: "Une refonte complète du site et une identité prolongée sur l'affiche et le t-shirt du festival.",
     image: "assets/images/projects/the-y-festival.png",
+    ctaImage: "assets/images/projects/the-y-festival-site-capture.jpg",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
     photoSlots: 3,
     score: [
@@ -140,7 +141,7 @@ window.portfolioProjects = [
         visualSlots: 3
       }
     ],
-    link: "https://theyfestival.fr/"
+    link: "https://theyfestival.fr/home"
   },
   {
     id: "mademoiselle-azalee",
