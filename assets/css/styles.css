@@ -556,6 +556,10 @@ h3 {
   padding: 112px 0 54px;
 }
 
+.project-detail-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4.8rem);
+}
+
 .projects-hero {
   justify-items: center;
   padding-bottom: 62px;
