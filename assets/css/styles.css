@@ -781,29 +781,28 @@ h3 {
   min-width: 0;
 }
 
-.laptop-frame {
+.desktop-frame {
   position: relative;
   width: min(100%, 360px);
-  transform: perspective(900px) rotateX(2deg);
 }
 
-.laptop-screen {
+.desktop-screen {
   display: grid;
   place-items: center;
-  aspect-ratio: 16 / 10;
-  padding: 8px;
-  border: 8px solid var(--ink);
-  border-radius: 8px 8px 4px 4px;
+  aspect-ratio: 16 / 9;
+  padding: 10px;
+  border: 10px solid #050505;
+  border-radius: 9px 9px 0 0;
   background: var(--ink);
   box-shadow: 0 14px 28px rgba(36, 27, 24, 0.13);
 }
 
-.laptop-placeholder {
+.desktop-placeholder {
   display: grid;
   place-items: center;
   width: 100%;
   height: 100%;
-  border-radius: 3px;
+  border-radius: 2px;
   color: var(--red);
   background:
     linear-gradient(135deg, rgba(131, 35, 25, 0.08), rgba(255, 250, 244, 0.88)),
@@ -814,12 +813,25 @@ h3 {
   text-transform: uppercase;
 }
 
-.laptop-base {
-  width: 78%;
-  height: 11px;
+.desktop-chin {
+  height: 28px;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(180deg, #f4f2ef, #c8c5c0);
+}
+
+.desktop-stand {
+  width: 18%;
+  height: 34px;
   margin: 0 auto;
-  border-radius: 0 0 18px 18px;
-  background: linear-gradient(180deg, #4a3c38, var(--ink));
+  background: linear-gradient(90deg, #d9d6d1, #f1efeb 50%, #bbb7b0);
+}
+
+.desktop-foot {
+  width: 38%;
+  height: 8px;
+  margin: 0 auto;
+  border-radius: 999px 999px 4px 4px;
+  background: linear-gradient(180deg, #ebe8e2, #b9b5ad);
 }
 
 .project-detail-grid {
@@ -1049,7 +1061,7 @@ h3 {
     padding: 30px 22px;
   }
 
-  .laptop-frame {
+  .desktop-frame {
     width: min(100%, 340px);
   }
 

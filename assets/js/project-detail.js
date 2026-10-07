@@ -37,11 +37,13 @@ if (detailRoot && currentProject) {
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
         <div class="project-cta-mockup" aria-hidden="true">
-          <div class="laptop-frame">
-            <div class="laptop-screen">
-              <div class="laptop-placeholder">Capture à ajouter</div>
+          <div class="desktop-frame">
+            <div class="desktop-screen">
+              <div class="desktop-placeholder">Capture à ajouter</div>
             </div>
-            <div class="laptop-base"></div>
+            <div class="desktop-chin"></div>
+            <div class="desktop-stand"></div>
+            <div class="desktop-foot"></div>
           </div>
         </div>
       </section>
