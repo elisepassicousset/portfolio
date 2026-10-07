@@ -49,7 +49,7 @@ window.portfolioProjects = [
         ]
       },
       {
-        title: "Résultat",
+        title: "Résultats",
         heading: "Un prototype complet pour suivre plus simplement l'état d'une piscine.",
         paragraphs: [
           "Après un an de travail, Sondélia a abouti à la conception d'un prototype d'application mobile permettant à un propriétaire de suivre plus simplement l'état de sa piscine.",

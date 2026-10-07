@@ -9,8 +9,6 @@ if (detailRoot && currentProject) {
       <span>Visuel ${index + 1}</span>
     </div>
   `).join("");
-  const tools = currentProject.tools || [];
-  const toolItems = tools.map((tool) => `<span>${tool}</span>`).join("");
   const scoreSections = currentProject.score
     ? currentProject.score.map((section) => `
       <article class="score-card">
@@ -59,20 +57,9 @@ if (detailRoot && currentProject) {
     <section class="section section-compact">
       <div class="section-heading">
         <p class="eyebrow">Visuels</p>
-        <h2>Emplacements à compléter</h2>
       </div>
       <div class="project-photo-grid">
         ${photoPlaceholders}
-      </div>
-    </section>
-
-    <section class="section section-compact project-tools-section">
-      <div class="section-heading">
-        <p class="eyebrow">Outils</p>
-        <h2>Logiciels utilisés</h2>
-      </div>
-      <div class="tools-list">
-        ${toolItems || "<span>À compléter</span>"}
       </div>
     </section>
 
