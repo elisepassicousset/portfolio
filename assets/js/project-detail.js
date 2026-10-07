@@ -18,7 +18,6 @@ if (detailRoot && currentProject) {
   const scoreSections = currentProject.score
     ? currentProject.score.map((section) => `
       <article class="score-card">
-        <div class="score-letter" aria-hidden="true">${section.letter}</div>
         <div class="score-content">
           <p class="eyebrow">${section.title}</p>
           <h2>${section.heading}</h2>
@@ -61,7 +60,6 @@ if (detailRoot && currentProject) {
       <div class="score-list">
         ${scoreSections || `
           <article class="score-card">
-            <div class="score-letter" aria-hidden="true">S</div>
             <div class="score-content">
               <p class="eyebrow">Synthèse</p>
               <h2>${currentProject.objectives}</h2>

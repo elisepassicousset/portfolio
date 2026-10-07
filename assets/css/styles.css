@@ -667,25 +667,12 @@ h3 {
 
 .score-card {
   display: grid;
-  grid-template-columns: 84px minmax(0, 1fr);
-  gap: 28px;
+  gap: 18px;
   padding: 34px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--white);
   box-shadow: 0 12px 32px rgba(36, 27, 24, 0.05);
-}
-
-.score-letter {
-  display: grid;
-  place-items: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  color: var(--white);
-  background: var(--red);
-  font-size: 1.6rem;
-  font-weight: 700;
 }
 
 .score-content {
@@ -833,8 +820,6 @@ h3 {
   }
 
   .score-card {
-    grid-template-columns: 1fr;
-    gap: 18px;
     padding: 28px;
   }
 }
