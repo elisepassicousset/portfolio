@@ -75,63 +75,72 @@ window.portfolioProjects = [
   {
     id: "the-y-festival",
     title: "The Y Festival",
-    category: "Identité événementielle",
-    description: "Création d'une identité visuelle pour un festival.",
-    context: "The Y Festival est un projet d'identité événementielle imaginé pour transmettre une énergie forte et mémorable.",
-    role: "Direction artistique, branding événementiel et déclinaisons de communication.",
-    objectives: "Créer une identité distinctive, adaptable aux supports digitaux et imprimés.",
-    process: "Recherche d'univers, expérimentation graphique, création de signes visuels et application sur supports de festival.",
-    result: "Une identité expressive, dynamique et cohérente avec l'esprit d'un événement culturel.",
+    category: "UX/UI & direction visuelle",
+    description: "Refonte UX/UI du site de The Y Festival pour sa deuxième édition, accompagnée d'une nouvelle direction visuelle déclinée sur différents supports de communication.",
+    context: "The Y Festival est un projet étudiant réalisé en binôme autour de la refonte digitale et graphique de la deuxième édition du festival.",
+    role: "Participation à la conception UX/UI, aux wireframes, aux maquettes desktop et mobile, au prototypage et aux déclinaisons graphiques.",
+    objectives: "Repenser l'expérience du site, faciliter l'accès aux informations clés et décliner une identité cohérente sur les supports du festival.",
+    process: "Analyse de l'existant, refonte de l'architecture, conception des maquettes Figma, travail des interactions et déclinaisons print et web.",
+    result: "Une refonte complète du site et une identité prolongée sur l'affiche et le t-shirt du festival.",
     image: "assets/images/projects/the-y-festival.png",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
     photoSlots: 3,
     score: [
       {
         title: "Contexte",
-        heading: "Une identité événementielle pensée pour un festival expressif et mémorable.",
+        heading: "Une refonte digitale réalisée en binôme pour la deuxième édition du festival.",
         paragraphs: [
-          "The Y Festival est un projet d'identité visuelle imaginé autour d'un événement culturel. L'objectif était de créer un univers reconnaissable, capable de transmettre une énergie forte tout en restant adaptable à différents supports de communication.",
-          "Le projet s'inscrit dans une logique de branding événementiel : il fallait construire une présence visuelle impactante, lisible rapidement et suffisamment souple pour accompagner l'affichage, les supports digitaux et les déclinaisons imprimées."
-        ]
+          "The Y Festival est un projet étudiant auquel j'ai participé dans le cadre de la deuxième édition du festival. Le projet a été réalisé en binôme avec l'objectif de repenser l'univers digital de l'événement tout en conservant son identité et son logo existants.",
+          "Notre travail portait principalement sur la refonte complète du site internet. L'enjeu était de proposer une nouvelle direction visuelle, plus cohérente avec l'univers du festival, tout en facilitant l'accès aux informations essentielles comme la programmation, les artistes, les informations pratiques ou encore la présentation de l'événement.",
+          "Le projet ne s'est pas limité au digital. Nous avons également décliné cette nouvelle direction graphique sur différents supports de communication, avec la création d'une affiche destinée au print et au web ainsi que d'un visuel pour un t-shirt."
+        ],
+        visualSlots: 3
       },
       {
         title: "Démarche",
-        heading: "Explorer un univers graphique puis le décliner sur des supports cohérents.",
+        heading: "Repenser l'expérience et construire une identité cohérente sur l'ensemble des supports.",
         paragraphs: [
-          "J'ai commencé par rechercher des inspirations autour de l'univers festivalier, de la typographie, des couleurs et des formes graphiques capables de traduire une ambiance dynamique.",
-          "À partir de cette phase d'exploration, j'ai travaillé plusieurs pistes visuelles avant de retenir une direction plus expressive, portée par un logo fort et une identité facilement identifiable.",
-          "J'ai ensuite imaginé les déclinaisons possibles de cette identité afin de vérifier sa cohérence sur différents supports de communication."
-        ]
+          "Nous avons commencé par analyser l'identité existante du festival et les contenus nécessaires pour cette deuxième édition. Le logo a été conservé, mais nous avons fait évoluer l'univers graphique avec une nouvelle palette de couleurs et une direction visuelle pensée pour donner davantage de personnalité à l'événement.",
+          "Nous avons ensuite retravaillé l'ensemble de l'architecture et des pages du site. L'objectif était de hiérarchiser les informations et de construire des parcours permettant aux visiteurs de retrouver rapidement la programmation, les artistes et les informations liées au festival.",
+          "J'ai participé à la conception des wireframes puis des maquettes sur Figma, sur desktop et mobile. Nous avons également travaillé les interactions et les animations afin de ne pas présenter uniquement des écrans statiques, mais de montrer précisément le comportement attendu de l'interface.",
+          "Une attention particulière a été portée à la préparation des maquettes pour le développement. Les écrans, composants, comportements responsive et interactions devaient être suffisamment détaillés pour permettre aux développeurs de retranscrire correctement nos choix en code.",
+          "Enfin, nous avons décliné l'univers graphique du site sur les supports de communication de cette deuxième édition, notamment l'affiche print et web ainsi que le t-shirt du festival."
+        ],
+        visualSlots: 4
       },
       {
         title: "Outils",
-        heading: "Des outils graphiques pour construire l'identité et ses déclinaisons.",
+        heading: "Des outils adaptés à la conception, au prototypage et à la création graphique.",
         paragraphs: [
-          "Adobe Illustrator m'a permis de travailler les formes, le logo et les éléments principaux de l'identité visuelle.",
-          "Adobe Photoshop a été utilisé pour préparer certains visuels et explorer les compositions graphiques.",
-          "Figma m'a aidée à organiser les éléments et à visualiser certaines déclinaisons dans une logique plus structurée."
-        ]
+          "Figma a été notre outil principal pour concevoir les wireframes, les interfaces desktop et mobile, les composants et le prototype interactif. Le travail sur les animations nous a permis de préciser le comportement de certains éléments et de mieux communiquer nos intentions aux développeurs.",
+          "La création des différents supports de communication nous a également amenées à travailler avec les outils Adobe pour adapter l'identité du festival aux contraintes du print et des différents formats digitaux.",
+          "Le travail en binôme a demandé de maintenir une cohérence entre nos différentes productions. Nous avons donc dû partager nos choix graphiques, organiser les fichiers et conserver les mêmes règles de conception tout au long du projet."
+        ],
+        visualSlots: 3
       },
       {
         title: "Résultats",
-        heading: "Une identité visuelle expressive, adaptée à un événement culturel.",
+        heading: "Une identité déclinée du site internet aux supports du festival.",
         paragraphs: [
-          "Le projet aboutit à une direction graphique dynamique, reconnaissable et cohérente avec l'esprit d'un festival.",
-          "L'identité peut être déclinée sur plusieurs supports tout en gardant une unité visuelle forte.",
-          "Le résultat met en avant une personnalité de marque événementielle, à la fois énergique et mémorable."
-        ]
+          "Le projet a abouti à une refonte complète du site de The Y Festival pour sa deuxième édition, avec une nouvelle direction graphique, une nouvelle palette de couleurs et des interfaces pensées pour le desktop et le mobile.",
+          "Les maquettes et prototypes réalisés sur Figma ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la structure des pages, le responsive et les animations.",
+          "Cette identité a ensuite été prolongée sur les supports de communication du festival avec la réalisation de l'affiche en formats print et web ainsi que d'un t-shirt, afin de conserver une cohérence visuelle entre l'expérience digitale et la communication de l'événement."
+        ],
+        visualSlots: 4
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Apprendre à créer une identité forte sans perdre en cohérence.",
+        heading: "Concevoir à plusieurs et penser au-delà de la maquette.",
         paragraphs: [
-          "Ce projet m'a permis de travailler l'équilibre entre expressivité graphique et lisibilité.",
-          "J'ai appris à penser une identité au-delà du logo, en imaginant dès le départ comment elle peut vivre sur différents supports.",
-          "Il m'a aussi aidée à renforcer ma capacité à choisir une direction visuelle claire parmi plusieurs pistes créatives."
-        ]
+          "The Y Festival m'a permis de travailler sur un projet collectif dans lequel mes choix de conception devaient être compris et partagés avec ma binôme, mais également suffisamment documentés pour être retranscrits par une équipe de développement.",
+          "J'ai appris à aller plus loin que la réalisation d'une interface visuellement aboutie. Une maquette destinée à être développée doit préciser les comportements, les interactions, le responsive et les différents états des composants afin de limiter les interprétations lors de son intégration.",
+          "Ce projet m'a également permis de travailler la cohérence d'une identité sur plusieurs points de contact. Le site, l'affiche et le t-shirt devaient appartenir au même univers tout en répondant à des contraintes et des usages différents.",
+          "Il m'a enfin permis de renforcer ma capacité à concevoir en équipe, à confronter mes propositions à celles d'une autre designer et à construire une direction commune plutôt que de travailler uniquement à partir de mes propres choix."
+        ],
+        visualSlots: 3
       }
     ],
-    link: ""
+    link: "https://theyfestival.fr/"
   },
   {
     id: "mademoiselle-azalee",
