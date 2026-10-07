@@ -861,9 +861,8 @@ h3 {
 }
 
 .projects-hero {
-  justify-items: center;
   padding-bottom: 62px;
-  text-align: center;
+  text-align: left;
 }
 
 .projects-hero h1 {
@@ -959,6 +958,8 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 980px;
+  margin-left: max(24px, calc((100vw - var(--max-width)) / 2));
+  margin-right: auto;
 }
 
 .contact-card {
@@ -972,10 +973,6 @@ h3 {
 .contact-card-main {
   gap: 28px;
   padding: 34px;
-}
-
-.contact-card-main .actions {
-  margin-top: 2px;
 }
 
 .contact-profile {
