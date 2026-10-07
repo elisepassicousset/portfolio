@@ -9,6 +9,13 @@ if (detailRoot && currentProject) {
       <span>Visuel ${index + 1}</span>
     </div>
   `).join("");
+  const heroVisual = currentProject.image
+    ? `
+      <div class="project-detail-hero-visual" aria-hidden="true">
+        <img src="${currentProject.image}" alt="">
+      </div>
+    `
+    : "";
   const scoreSections = currentProject.score
     ? currentProject.score.map((section) => `
       <article class="score-card">
@@ -34,8 +41,13 @@ if (detailRoot && currentProject) {
   detailRoot.innerHTML = `
     <section class="project-detail-hero">
       <a class="back-link" href="projects.html">Retour aux projets</a>
-      <h1>${currentProject.title}</h1>
-      <p>${currentProject.description}</p>
+      <div class="project-detail-hero-layout">
+        <div class="project-detail-hero-copy">
+          <h1>${currentProject.title}</h1>
+          <p>${currentProject.description}</p>
+        </div>
+        ${heroVisual}
+      </div>
     </section>
 
     <section class="section project-score-section">
