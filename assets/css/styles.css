@@ -755,19 +755,24 @@ h3 {
 .project-cta-section {
   display: grid;
   grid-template-columns: minmax(0, 0.45fr) minmax(260px, 0.55fr);
-  gap: 34px;
+  gap: 28px;
   align-items: center;
   width: min(calc(100% - 32px), var(--max-width));
   margin: 0 auto 80px;
-  padding: 56px;
+  padding: 34px 56px;
   border-radius: var(--radius);
   background: var(--beige);
 }
 
 .project-cta-content {
   display: grid;
-  gap: 18px;
+  gap: 16px;
   justify-items: start;
+}
+
+.project-cta-content h2 {
+  white-space: nowrap;
+  font-size: clamp(1.55rem, 3vw, 2.6rem);
 }
 
 .project-cta-mockup {
@@ -778,7 +783,7 @@ h3 {
 
 .laptop-frame {
   position: relative;
-  width: min(100%, 520px);
+  width: min(100%, 360px);
   transform: perspective(900px) rotateX(2deg);
 }
 
@@ -786,11 +791,11 @@ h3 {
   display: grid;
   place-items: center;
   aspect-ratio: 16 / 10;
-  padding: 10px;
-  border: 10px solid var(--ink);
+  padding: 8px;
+  border: 8px solid var(--ink);
   border-radius: 8px 8px 4px 4px;
   background: var(--ink);
-  box-shadow: 0 18px 36px rgba(36, 27, 24, 0.14);
+  box-shadow: 0 14px 28px rgba(36, 27, 24, 0.13);
 }
 
 .laptop-placeholder {
@@ -811,7 +816,7 @@ h3 {
 
 .laptop-base {
   width: 78%;
-  height: 16px;
+  height: 11px;
   margin: 0 auto;
   border-radius: 0 0 18px 18px;
   background: linear-gradient(180deg, #4a3c38, var(--ink));
@@ -1041,11 +1046,11 @@ h3 {
   .project-cta-section {
     grid-template-columns: 1fr;
     gap: 28px;
-    padding: 36px 22px;
+    padding: 30px 22px;
   }
 
   .laptop-frame {
-    width: min(100%, 420px);
+    width: min(100%, 340px);
   }
 
   .cta-section {
