@@ -937,6 +937,15 @@ h3 {
   box-shadow: 0 12px 32px rgba(36, 27, 24, 0.05);
 }
 
+.contact-hero {
+  padding-bottom: 28px;
+}
+
+.contact-layout {
+  padding-top: 28px;
+  padding-bottom: 64px;
+}
+
 .contact-form {
   display: grid;
   gap: 18px;
@@ -973,13 +982,42 @@ h3 {
 .contact-card {
   align-self: start;
   display: grid;
-  gap: 22px;
+  gap: 20px;
   padding: 28px;
+}
+
+.contact-profile {
+  display: grid;
+  gap: 6px;
+}
+
+.contact-profile h2 {
+  max-width: none;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+}
+
+.contact-profile p {
+  line-height: 1.5;
+}
+
+.contact-email {
+  display: grid;
+  gap: 6px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.contact-email > p {
+  color: var(--red);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .email-link {
   color: var(--red);
-  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-size: clamp(1.05rem, 1.7vw, 1.32rem);
   font-weight: 600;
   overflow-wrap: anywhere;
 }
