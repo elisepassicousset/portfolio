@@ -31,9 +31,19 @@ if (detailRoot && currentProject) {
   const projectCta = currentProject.link
     ? `
       <section class="project-cta-section">
-        <p class="eyebrow">Découvrir</p>
-        <h2>Voir le projet en ligne</h2>
-        <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
+        <div class="project-cta-content">
+          <p class="eyebrow">Découvrir</p>
+          <h2>Voir le projet en ligne</h2>
+          <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
+        </div>
+        <div class="project-cta-mockup" aria-hidden="true">
+          <div class="laptop-frame">
+            <div class="laptop-screen">
+              <div class="laptop-placeholder">Capture à ajouter</div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+        </div>
       </section>
     `
     : "";
