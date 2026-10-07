@@ -11,7 +11,7 @@ if (navToggle && siteNav) {
 
 const projects = window.portfolioProjects || [];
 
-function createProjectCard(project) {
+function createProjectCard(project, previewDescription = "") {
   const projectImage = project.image
     ? `<img src="${project.image}" alt="">`
     : `<span>${project.title}</span>`;
@@ -25,6 +25,7 @@ function createProjectCard(project) {
       </div>
       <div class="project-card-body">
         <h3>${project.title}</h3>
+        ${previewDescription ? `<p class="project-preview-description">${previewDescription}</p>` : ""}
       </div>
     </a>
   `;
@@ -32,7 +33,14 @@ function createProjectCard(project) {
 }
 
 document.querySelectorAll("[data-projects-preview]").forEach((container) => {
-  projects.slice(0, 3).forEach((project) => container.appendChild(createProjectCard(project)));
+  const previewDescriptions = {
+    "sondelia": "Product Design · UX/UI · Application mobile",
+    "the-y-festival": "UX/UI · Identité visuelle · Site web",
+    "mademoiselle-azalee": "UX/UI · E-commerce · Shopify"
+  };
+  projects.slice(0, 3).forEach((project) => {
+    container.appendChild(createProjectCard(project, previewDescriptions[project.id]));
+  });
 });
 
 document.querySelectorAll("[data-projects-grid]").forEach((container) => {
