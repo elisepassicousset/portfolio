@@ -941,9 +941,15 @@ h3 {
   padding-bottom: 28px;
 }
 
+.contact-hero h1 {
+  max-width: 860px;
+  font-size: clamp(2.35rem, 5vw, 5rem);
+}
+
 .contact-layout {
+  align-items: stretch;
   padding-top: 28px;
-  padding-bottom: 64px;
+  padding-bottom: 56px;
 }
 
 .contact-form {
@@ -980,9 +986,10 @@ h3 {
 }
 
 .contact-card {
-  align-self: start;
   display: grid;
-  gap: 20px;
+  align-content: space-between;
+  gap: 26px;
+  height: 100%;
   padding: 28px;
 }
 
@@ -1003,7 +1010,7 @@ h3 {
 .contact-email {
   display: grid;
   gap: 6px;
-  padding-top: 18px;
+  padding-top: 22px;
   border-top: 1px solid var(--line);
 }
 
@@ -1024,18 +1031,30 @@ h3 {
 
 .social-links {
   display: grid;
-  gap: 10px;
+  gap: 0;
 }
 
 .social-links a {
-  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
   font-weight: 500;
+  transition: color 180ms ease, padding-left 180ms ease;
+}
+
+.social-links a::after {
+  content: "→";
+  color: var(--red);
+  font-weight: 700;
 }
 
 .social-links a:hover {
   color: var(--red);
+  padding-left: 4px;
 }
 
 .project-detail-image {
@@ -1264,6 +1283,11 @@ h3 {
 
   .hero {
     min-height: auto;
+  }
+
+  .contact-card {
+    align-content: start;
+    height: auto;
   }
 
   .hero-visual {
