@@ -37,9 +37,9 @@ if (detailRoot && currentProject) {
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
         ${currentProject.ctaImage ? `
-          <div class="project-cta-mockup" aria-hidden="true">
+          <a class="project-cta-mockup" href="${currentProject.link}" target="_blank" rel="noreferrer" aria-label="Ouvrir le site ${currentProject.title}">
             <img class="project-cta-image" src="${currentProject.ctaImage}" alt="">
-          </div>
+          </a>
         ` : ""}
       </section>
     `
