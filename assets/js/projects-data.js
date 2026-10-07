@@ -212,58 +212,58 @@ window.portfolioProjects = [
     id: "pinus-esquirou",
     title: "Pinus Esquirou",
     category: "Direction artistique",
-    description: "Projet visuel autour d'une identité graphique et d'un univers naturel.",
+    description: "Conception d'une identité de marque et de son expérience digitale, inspirées par l'univers du pin et de la forêt.",
     context: "Pinus Esquirou s'inscrit dans une approche graphique inspirée de la nature, avec une attention portée aux textures, aux couleurs et à la cohérence de marque.",
     role: "Recherche d'identité, direction artistique et construction de supports visuels.",
     objectives: "Créer un univers reconnaissable, élégant et connecté à son environnement naturel.",
     process: "Analyse de références, création de moodboards, choix d'une direction graphique, puis déclinaison des éléments visuels.",
     result: "Une identité claire et chaleureuse, adaptée à une communication visuelle soignée.",
     image: "assets/images/projects/pinus-esquirou.jpg",
-    tools: ["Adobe Illustrator", "Adobe Photoshop", "InDesign"],
+    tools: ["Adobe Illustrator", "Adobe XD", "InDesign", "Procreate"],
     photoSlots: 4,
     score: [
       {
         title: "Contexte",
-        heading: "Une identité visuelle inspirée par la nature et son environnement.",
+        heading: "Une identité et une expérience digitale inspirées par l'univers du pin et de la forêt.",
         paragraphs: [
-          "Pinus Esquirou est un projet de direction artistique autour d'un univers naturel, chaleureux et identifiable.",
-          "Le projet s'appuie sur des références liées à la nature, aux textures et à une esthétique plus artisanale afin de construire une identité cohérente et mémorable."
+          "Pinus Esquirou est un projet réalisé lors de ma formation de Concepteur Designer UI à La Piscine. L'objectif était de concevoir l'identité et l'expérience digitale d'une marque en travaillant aussi bien sur son univers graphique que sur ses différents supports de communication.",
+          "J'ai choisi de construire ce projet autour de l'univers du pin et de la forêt, un sujet qui me tenait particulièrement à cœur. J'ai grandi entourée de pins et cet environnement fait partie de mon quotidien depuis longtemps. Il m'a donc semblé naturel de m'appuyer sur cet univers pour développer un projet personnel tout en travaillant sur une problématique de design.",
+          "Ce projet m'a amenée à réfléchir à la manière de construire une identité cohérente à partir d'un concept, puis de la décliner sur une interface digitale. L'enjeu était de ne pas travailler chaque élément séparément, mais de créer un ensemble reconnaissable et cohérent, de l'identité visuelle jusqu'à l'expérience proposée sur le site."
         ]
       },
       {
         title: "Démarche",
-        heading: "Construire un univers visuel à partir de références naturelles.",
+        heading: "Construire une identité, puis la décliner dans une interface cohérente.",
         paragraphs: [
-          "J'ai commencé par analyser des références graphiques et visuelles afin de définir une ambiance adaptée au projet.",
-          "J'ai ensuite travaillé sur les couleurs, les formes, la composition et les éléments graphiques capables de traduire l'univers de Pinus Esquirou.",
-          "La direction artistique a été pensée pour créer une identité claire, chaleureuse et facilement déclinable."
+          "J'ai commencé par une phase de recherche afin de mieux définir l'univers du projet et la direction graphique à adopter. J'ai réalisé un benchmark et exploré différentes références visuelles avant de construire progressivement l'identité de Pinus Esquirou.",
+          "J'ai ensuite travaillé sur les éléments graphiques de la marque, notamment le logo, les couleurs, les typographies et les principes visuels permettant de créer un univers identifiable. Cette identité m'a servi de base pour concevoir les différents supports du projet.",
+          "Pour la partie digitale, j'ai réfléchi à l'organisation des contenus et à la navigation avant de concevoir les interfaces. J'ai travaillé sur la hiérarchie de l'information, la composition des pages et la cohérence entre les différents écrans.",
+          "J'ai ensuite décliné l'univers graphique sur l'ensemble de l'interface afin de conserver une continuité entre l'identité de la marque et son expérience digitale. Cette étape m'a demandé de trouver un équilibre entre expression graphique, lisibilité et compréhension des contenus."
         ]
       },
       {
         title: "Outils",
-        heading: "Des outils de création graphique pour composer l'identité.",
+        heading: "Illustrator, Adobe XD, InDesign et Procreate au service du projet.",
         paragraphs: [
-          "Adobe Illustrator a été utilisé pour créer les formes, les éléments graphiques et les bases de l'identité.",
-          "Adobe Photoshop m'a permis de travailler certains rendus visuels et explorations graphiques.",
-          "InDesign a servi à envisager des supports de présentation et des mises en page plus structurées."
+          "J'ai utilisé plusieurs outils selon les différentes étapes du projet. Illustrator m'a permis de travailler sur l'identité et les éléments graphiques, tandis que Adobe XD a été utilisé pour la conception des interfaces.",
+          "J'ai également utilisé InDesign pour certains supports de présentation et Procreate pour la création d'éléments graphiques et d'illustrations."
         ]
       },
       {
         title: "Résultats",
-        heading: "Une identité chaleureuse, structurée et facilement reconnaissable.",
+        heading: "Un univers de marque complet, des supports de communication à l'expérience digitale.",
         paragraphs: [
-          "Le projet aboutit à un univers graphique clair, inspiré de la nature et adapté à une communication visuelle soignée.",
-          "L'identité possède une personnalité forte tout en restant lisible et exploitable sur différents supports.",
-          "Le résultat permet d'installer une présence visuelle cohérente, élégante et connectée à son environnement."
+          "Le projet a abouti à la création d'un univers de marque complet, décliné sur plusieurs supports et sur une expérience digitale.",
+          "L'identité visuelle et les interfaces ont été pensées comme un ensemble afin que l'utilisateur retrouve les mêmes codes graphiques tout au long de son expérience. Le projet m'a ainsi permis d'aller au-delà de la conception de quelques écrans isolés pour réfléchir à la cohérence globale d'une marque et de ses différents points de contact."
         ]
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Apprendre à traduire une ambiance naturelle en identité graphique.",
+        heading: "Construire des règles graphiques solides et une démarche créative structurée.",
         paragraphs: [
-          "Ce projet m'a permis de travailler la cohérence d'un univers visuel à partir de références sensibles et naturelles.",
-          "J'ai appris à faire des choix graphiques plus ciblés afin de construire une identité reconnaissable sans multiplier les éléments.",
-          "Il m'a aussi permis de renforcer ma réflexion autour de la déclinaison d'une direction artistique sur plusieurs supports."
+          "Pinus Esquirou m'a permis de comprendre l'importance de construire une identité avant de commencer à décliner des interfaces. J'ai appris à définir des règles graphiques suffisamment solides pour pouvoir les appliquer sur différents supports tout en conservant une cohérence visuelle.",
+          "Le projet m'a également fait progresser dans la conception d'interfaces, notamment sur la hiérarchie de l'information, la composition et la navigation. J'ai commencé à davantage réfléchir à la fonction de chaque élément plutôt qu'à son aspect graphique uniquement.",
+          "Enfin, ce projet m'a appris à mener une démarche créative de manière structurée : rechercher, explorer plusieurs pistes, faire des choix, construire une identité puis la décliner jusqu'à obtenir une solution cohérente."
         ]
       }
     ],
