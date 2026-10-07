@@ -975,6 +975,14 @@ h3 {
   padding: 34px;
 }
 
+.contact-portrait {
+  display: block;
+  width: min(100%, 320px);
+  height: auto;
+  margin-top: 28px;
+  border-radius: var(--radius);
+}
+
 .contact-profile {
   display: grid;
   gap: 6px;
