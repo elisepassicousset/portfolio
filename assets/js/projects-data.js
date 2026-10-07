@@ -84,6 +84,52 @@ window.portfolioProjects = [
     image: "assets/images/projects/the-y-festival.png",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
     photoSlots: 3,
+    score: [
+      {
+        title: "Contexte",
+        heading: "Une identité événementielle pensée pour un festival expressif et mémorable.",
+        paragraphs: [
+          "The Y Festival est un projet d'identité visuelle imaginé autour d'un événement culturel. L'objectif était de créer un univers reconnaissable, capable de transmettre une énergie forte tout en restant adaptable à différents supports de communication.",
+          "Le projet s'inscrit dans une logique de branding événementiel : il fallait construire une présence visuelle impactante, lisible rapidement et suffisamment souple pour accompagner l'affichage, les supports digitaux et les déclinaisons imprimées."
+        ]
+      },
+      {
+        title: "Démarche",
+        heading: "Explorer un univers graphique puis le décliner sur des supports cohérents.",
+        paragraphs: [
+          "J'ai commencé par rechercher des inspirations autour de l'univers festivalier, de la typographie, des couleurs et des formes graphiques capables de traduire une ambiance dynamique.",
+          "À partir de cette phase d'exploration, j'ai travaillé plusieurs pistes visuelles avant de retenir une direction plus expressive, portée par un logo fort et une identité facilement identifiable.",
+          "J'ai ensuite imaginé les déclinaisons possibles de cette identité afin de vérifier sa cohérence sur différents supports de communication."
+        ]
+      },
+      {
+        title: "Outils",
+        heading: "Des outils graphiques pour construire l'identité et ses déclinaisons.",
+        paragraphs: [
+          "Adobe Illustrator m'a permis de travailler les formes, le logo et les éléments principaux de l'identité visuelle.",
+          "Adobe Photoshop a été utilisé pour préparer certains visuels et explorer les compositions graphiques.",
+          "Figma m'a aidée à organiser les éléments et à visualiser certaines déclinaisons dans une logique plus structurée."
+        ]
+      },
+      {
+        title: "Résultats",
+        heading: "Une identité visuelle expressive, adaptée à un événement culturel.",
+        paragraphs: [
+          "Le projet aboutit à une direction graphique dynamique, reconnaissable et cohérente avec l'esprit d'un festival.",
+          "L'identité peut être déclinée sur plusieurs supports tout en gardant une unité visuelle forte.",
+          "Le résultat met en avant une personnalité de marque événementielle, à la fois énergique et mémorable."
+        ]
+      },
+      {
+        title: "Ce que j'en retiens",
+        heading: "Apprendre à créer une identité forte sans perdre en cohérence.",
+        paragraphs: [
+          "Ce projet m'a permis de travailler l'équilibre entre expressivité graphique et lisibilité.",
+          "J'ai appris à penser une identité au-delà du logo, en imaginant dès le départ comment elle peut vivre sur différents supports.",
+          "Il m'a aussi aidée à renforcer ma capacité à choisir une direction visuelle claire parmi plusieurs pistes créatives."
+        ]
+      }
+    ],
     link: ""
   },
   {
@@ -99,6 +145,52 @@ window.portfolioProjects = [
     image: "assets/images/projects/mademoiselle-azalee.webp",
     tools: ["Shopify", "Figma", "Canva"],
     photoSlots: 3,
+    score: [
+      {
+        title: "Contexte",
+        heading: "Une refonte e-commerce pour une boutique de mode et d'accessoires.",
+        paragraphs: [
+          "Mademoiselle Azalée est un projet de refonte e-commerce Shopify pour une boutique de prêt-à-porter et d'accessoires.",
+          "L'objectif était d'améliorer la clarté de l'expérience d'achat, de mieux structurer les contenus et de proposer une interface plus en accord avec l'univers élégant de la marque."
+        ]
+      },
+      {
+        title: "Démarche",
+        heading: "Analyser l'existant pour fluidifier le parcours d'achat.",
+        paragraphs: [
+          "J'ai commencé par observer l'existant afin d'identifier les points de friction dans la navigation, la hiérarchie des informations et le parcours d'achat.",
+          "J'ai ensuite travaillé sur une organisation plus claire des contenus, avec une attention portée à la lisibilité, à la mise en avant des produits et à la cohérence visuelle.",
+          "La refonte a été pensée pour accompagner l'utilisateur de manière plus fluide, depuis la découverte des produits jusqu'à l'achat."
+        ]
+      },
+      {
+        title: "Outils",
+        heading: "Des outils adaptés à la conception et à la préparation e-commerce.",
+        paragraphs: [
+          "Shopify a servi de base pour penser les contraintes et les besoins propres à une boutique en ligne.",
+          "Figma m'a permis de structurer les écrans, de travailler l'interface et d'organiser les choix UX/UI.",
+          "Canva a été utilisé pour préparer certains éléments visuels et accompagner la cohérence graphique des contenus."
+        ]
+      },
+      {
+        title: "Résultats",
+        heading: "Une expérience d'achat plus claire et plus cohérente avec la marque.",
+        paragraphs: [
+          "La refonte permet de proposer une boutique plus lisible, plus élégante et plus simple à parcourir.",
+          "Le parcours d'achat est mieux structuré, avec une présentation plus cohérente des produits et de l'univers de marque.",
+          "Le projet renforce la perception professionnelle de la boutique tout en conservant une expérience accessible."
+        ]
+      },
+      {
+        title: "Ce que j'en retiens",
+        heading: "Penser l'interface comme un soutien direct à l'achat.",
+        paragraphs: [
+          "Ce projet m'a permis de travailler sur les enjeux spécifiques d'un site e-commerce, où la clarté du parcours a un impact direct sur l'expérience utilisateur.",
+          "J'ai appris à équilibrer l'esthétique de marque avec des besoins très concrets : trouver un produit, comprendre l'offre et passer à l'achat facilement.",
+          "Il m'a aussi permis de renforcer mon attention aux détails dans la hiérarchie visuelle et la structure des pages."
+        ]
+      }
+    ],
     link: ""
   },
   {
@@ -114,6 +206,52 @@ window.portfolioProjects = [
     image: "assets/images/projects/pinus-esquirou.jpg",
     tools: ["Adobe Illustrator", "Adobe Photoshop", "InDesign"],
     photoSlots: 4,
+    score: [
+      {
+        title: "Contexte",
+        heading: "Une identité visuelle inspirée par la nature et son environnement.",
+        paragraphs: [
+          "Pinus Esquirou est un projet de direction artistique autour d'un univers naturel, chaleureux et identifiable.",
+          "Le projet s'appuie sur des références liées à la nature, aux textures et à une esthétique plus artisanale afin de construire une identité cohérente et mémorable."
+        ]
+      },
+      {
+        title: "Démarche",
+        heading: "Construire un univers visuel à partir de références naturelles.",
+        paragraphs: [
+          "J'ai commencé par analyser des références graphiques et visuelles afin de définir une ambiance adaptée au projet.",
+          "J'ai ensuite travaillé sur les couleurs, les formes, la composition et les éléments graphiques capables de traduire l'univers de Pinus Esquirou.",
+          "La direction artistique a été pensée pour créer une identité claire, chaleureuse et facilement déclinable."
+        ]
+      },
+      {
+        title: "Outils",
+        heading: "Des outils de création graphique pour composer l'identité.",
+        paragraphs: [
+          "Adobe Illustrator a été utilisé pour créer les formes, les éléments graphiques et les bases de l'identité.",
+          "Adobe Photoshop m'a permis de travailler certains rendus visuels et explorations graphiques.",
+          "InDesign a servi à envisager des supports de présentation et des mises en page plus structurées."
+        ]
+      },
+      {
+        title: "Résultats",
+        heading: "Une identité chaleureuse, structurée et facilement reconnaissable.",
+        paragraphs: [
+          "Le projet aboutit à un univers graphique clair, inspiré de la nature et adapté à une communication visuelle soignée.",
+          "L'identité possède une personnalité forte tout en restant lisible et exploitable sur différents supports.",
+          "Le résultat permet d'installer une présence visuelle cohérente, élégante et connectée à son environnement."
+        ]
+      },
+      {
+        title: "Ce que j'en retiens",
+        heading: "Apprendre à traduire une ambiance naturelle en identité graphique.",
+        paragraphs: [
+          "Ce projet m'a permis de travailler la cohérence d'un univers visuel à partir de références sensibles et naturelles.",
+          "J'ai appris à faire des choix graphiques plus ciblés afin de construire une identité reconnaissable sans multiplier les éléments.",
+          "Il m'a aussi permis de renforcer ma réflexion autour de la déclinaison d'une direction artistique sur plusieurs supports."
+        ]
+      }
+    ],
     link: ""
   }
 ];
