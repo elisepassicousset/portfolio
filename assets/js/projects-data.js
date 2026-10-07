@@ -107,7 +107,7 @@ window.portfolioProjects = [
           "Une attention particulière a été portée à la préparation des maquettes pour le développement. Les écrans, composants, comportements responsive et interactions devaient être suffisamment détaillés pour permettre aux développeurs de retranscrire correctement nos choix en code.",
           "Enfin, nous avons décliné l'univers graphique du site sur les supports de communication de cette deuxième édition, notamment l'affiche print et web ainsi que le t-shirt du festival."
         ],
-        visualSlots: 4
+        visualSlots: 3
       },
       {
         title: "Outils",
@@ -127,7 +127,7 @@ window.portfolioProjects = [
           "Les maquettes et prototypes réalisés sur Figma ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la structure des pages, le responsive et les animations.",
           "Cette identité a ensuite été prolongée sur les supports de communication du festival avec la réalisation de l'affiche en formats print et web ainsi que d'un t-shirt, afin de conserver une cohérence visuelle entre l'expérience digitale et la communication de l'événement."
         ],
-        visualSlots: 4
+        visualSlots: 3
       },
       {
         title: "Ce que j'en retiens",
