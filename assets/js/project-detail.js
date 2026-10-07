@@ -37,14 +37,7 @@ if (detailRoot && currentProject) {
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
         <div class="project-cta-mockup" aria-hidden="true">
-          <div class="desktop-frame">
-            <div class="desktop-screen">
-              <img class="desktop-screen-image" src="assets/images/projects/sondelia-site-capture.png" alt="">
-            </div>
-            <div class="desktop-chin"></div>
-            <div class="desktop-stand"></div>
-            <div class="desktop-foot"></div>
-          </div>
+          <img class="project-cta-image" src="assets/images/projects/sondelia-site-capture.png" alt="">
         </div>
       </section>
     `

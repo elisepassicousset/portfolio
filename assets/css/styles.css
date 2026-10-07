@@ -781,66 +781,13 @@ h3 {
   min-width: 0;
 }
 
-.desktop-frame {
-  position: relative;
-  width: min(100%, 360px);
-}
-
-.desktop-screen {
-  display: grid;
-  place-items: center;
-  aspect-ratio: 16 / 9;
-  padding: 10px;
-  border: 10px solid #050505;
-  border-radius: 9px 9px 0 0;
-  background: var(--ink);
-  box-shadow: 0 14px 28px rgba(36, 27, 24, 0.13);
-}
-
-.desktop-placeholder {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 2px;
-  color: var(--red);
-  background:
-    linear-gradient(135deg, rgba(131, 35, 25, 0.08), rgba(255, 250, 244, 0.88)),
-    var(--paper);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.desktop-screen-image {
+.project-cta-image {
   display: block;
   width: 100%;
-  height: 100%;
-  border-radius: 2px;
+  max-width: 420px;
+  border-radius: var(--radius);
   object-fit: contain;
-  background: var(--paper);
-}
-
-.desktop-chin {
-  height: 28px;
-  border-radius: 0 0 12px 12px;
-  background: linear-gradient(180deg, #f4f2ef, #c8c5c0);
-}
-
-.desktop-stand {
-  width: 18%;
-  height: 34px;
-  margin: 0 auto;
-  background: linear-gradient(90deg, #d9d6d1, #f1efeb 50%, #bbb7b0);
-}
-
-.desktop-foot {
-  width: 38%;
-  height: 8px;
-  margin: 0 auto;
-  border-radius: 999px 999px 4px 4px;
-  background: linear-gradient(180deg, #ebe8e2, #b9b5ad);
+  box-shadow: 0 14px 28px rgba(36, 27, 24, 0.13);
 }
 
 .project-detail-grid {
@@ -1070,8 +1017,8 @@ h3 {
     padding: 30px 22px;
   }
 
-  .desktop-frame {
-    width: min(100%, 340px);
+  .project-cta-image {
+    max-width: 100%;
   }
 
   .cta-section {
