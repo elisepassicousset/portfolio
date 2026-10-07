@@ -428,6 +428,7 @@ h3 {
 
 .about-hero h1 {
   max-width: 920px;
+  font-size: clamp(2.35rem, 5vw, 3.6rem);
 }
 
 .about-hero p {
