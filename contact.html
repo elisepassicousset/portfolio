@@ -34,29 +34,8 @@
         </p>
       </section>
 
-      <section class="section contact-layout">
-        <form class="contact-form" action="/api/contact" method="post" data-contact-form>
-          <label>
-            Nom
-            <input type="text" name="nom" autocomplete="name" required>
-          </label>
-          <label>
-            E-mail
-            <input type="email" name="email" autocomplete="email" required>
-          </label>
-          <label>
-            Objet
-            <input type="text" name="objet" required>
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="7" required></textarea>
-          </label>
-          <button class="btn btn-primary" type="submit" data-contact-submit>Envoyer</button>
-          <p class="form-status" data-contact-status role="status" aria-live="polite"></p>
-        </form>
-
-        <aside class="contact-card">
+      <section class="section contact-layout contact-layout-single">
+        <aside class="contact-card contact-card-main">
           <p class="eyebrow">Coordonnées</p>
           <div class="contact-profile">
             <h2>Elise Passicousset</h2>
@@ -72,7 +51,10 @@
             <p>LinkedIn</p>
             <a class="email-link" href="https://www.linkedin.com/in/elise-passicousset" target="_blank" rel="noreferrer">www.linkedin.com/in/elise-passicousset</a>
           </div>
-          <a class="btn btn-secondary" href="#" aria-disabled="true">Télécharger mon CV</a>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:elise.passicousset@outlook.com">M'envoyer un e-mail</a>
+            <a class="btn btn-secondary" href="#" aria-disabled="true">Télécharger mon CV</a>
+          </div>
         </aside>
       </section>
     </main>
@@ -93,6 +75,5 @@
 
     <script src="assets/js/projects-data.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/contact.js"></script>
   </body>
 </html>
