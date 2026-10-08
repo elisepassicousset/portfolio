@@ -855,49 +855,45 @@ h3 {
   background: var(--beige);
 }
 
-.home-contact-cta {
-  padding-top: 48px;
+.section.home-projects {
+  padding-top: 32px;
   padding-bottom: 48px;
 }
 
-.home-projects {
-  padding-top: 32px;
-  padding-bottom: 56px;
-}
-
-.home-project-grid {
+.home-section-heading {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 44px 32px;
+  gap: 14px;
 }
 
-.home-project,
-.home-project-content {
-  min-width: 0;
+.home-section-heading h2 {
+  max-width: 980px;
+  font-size: 2.4rem;
+  line-height: 1.25;
 }
 
 .home-project-featured {
-  grid-column: 1 / -1;
-}
-
-.home-project-link {
   display: grid;
-  gap: 20px;
-  height: 100%;
-  border-radius: var(--radius);
-}
-
-.home-project-link:focus-visible {
-  outline: 2px solid var(--red);
-  outline-offset: 6px;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  align-items: center;
+  gap: 36px;
+  margin-top: 28px;
 }
 
 .home-project-image {
-  aspect-ratio: 16 / 10;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 360px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--white);
+}
+
+.home-project-image:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 6px;
 }
 
 .home-project-image img {
@@ -909,29 +905,20 @@ h3 {
   transition: transform 180ms ease;
 }
 
-.home-project-link:hover .home-project-image img {
+.home-project-image:hover img {
   transform: scale(1.02);
 }
 
 .home-project-content {
   display: grid;
+  min-width: 0;
   align-content: center;
   justify-items: start;
-  gap: 12px;
+  gap: 16px;
 }
 
 .home-project-content h3 {
-  font-size: 1.65rem;
-}
-
-.home-project-featured .home-project-link {
-  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
-  gap: 36px;
-  align-items: center;
-}
-
-.home-project-featured h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .home-project-featured .eyebrow {
@@ -939,68 +926,97 @@ h3 {
   letter-spacing: 0;
 }
 
-.home-approach {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
-  gap: 40px;
-  padding-top: 40px;
-  padding-bottom: 48px;
-  border-top: 1px solid var(--line);
-}
-
-.home-approach-heading,
-.home-approach-content {
+.section.home-approach {
   display: grid;
   justify-items: start;
-  gap: 18px;
+  gap: 24px;
+  width: 100%;
+  padding: 48px max(24px, calc((100% - var(--max-width)) / 2));
+  background: var(--beige-soft);
 }
 
-.home-approach h2 {
-  max-width: 24ch;
-  font-size: 2rem;
-  line-height: 1.3;
+.home-approach-copy {
+  max-width: 920px;
 }
 
-.home-contact-cta h2 {
-  max-width: 100%;
-  font-size: 2rem;
-  line-height: 1.3;
+.home-process {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  margin: 4px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-process li {
+  display: grid;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--red-soft);
+}
+
+.home-process span {
+  color: var(--red);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.home-process strong {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.section.home-opportunity {
+  display: grid;
+  justify-items: start;
+  gap: 24px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.home-opportunity > p {
+  max-width: 880px;
+}
+
+.home-opportunity .actions {
+  margin-top: 4px;
+}
+
+.home-opportunity .btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
 }
 
 @media (max-width: 900px) {
-  .home-project-featured .home-project-link {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .home-project-featured .home-project-image {
-    aspect-ratio: 16 / 9;
-  }
-
-  .home-approach {
+  .home-project-featured {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .home-process {
+    gap: 16px;
   }
 }
 
 @media (max-width: 600px) {
-  .home-project-grid {
-    grid-template-columns: 1fr;
-    gap: 32px;
+  .home-section-heading h2 {
+    font-size: 1.8rem;
   }
 
-  .home-project-featured .home-project-image {
-    aspect-ratio: 16 / 10;
+  .home-process {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
   }
 
-  .home-project-featured h3 {
-    font-size: 2rem;
+  .section.home-approach {
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 
-  .home-approach h2,
-  .home-contact-cta h2 {
-    font-size: 1.6rem;
+  .section.home-opportunity {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
@@ -1611,11 +1627,6 @@ h3 {
 
   .cta-section {
     padding: 36px 22px;
-  }
-
-  .home-contact-cta {
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
 
   .page-hero,
