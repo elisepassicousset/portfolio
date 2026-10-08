@@ -2,6 +2,7 @@
 window.portfolioProjects = [
   {
     id: "sondelia",
+    cardDescription: "Application mobile permettant aux propriétaires de piscine de suivre la qualité de leur eau et de simplifier l’entretien de leur bassin.",
     title: "Sondélia",
     category: "UX/UI Mobile",
     status: "Projet en cours",
@@ -18,7 +19,7 @@ window.portfolioProjects = [
     score: [
       {
         title: "Contexte",
-        heading: "Un projet de fin d'études mené comme une démarche produit complète.",
+        heading: "Un projet de fin d'études mené comme une démarche produit complète",
         paragraphs: [
           "Sondélia est un projet fictif que j'ai imaginé et développé pendant un an dans le cadre de mon projet de fin d'études en Mastère Product Designer UX/UI. Présenté lors de ma soutenance, il m'a permis de mener une démarche de Product Design complète, depuis la recherche d'une problématique jusqu'à la conception et au prototypage de la solution.",
           "Le projet part d'un constat : l'entretien d'une piscine demande de surveiller régulièrement plusieurs paramètres, comme le pH, le chlore, la température, le TAC, le TH ou encore le niveau d'eau. Ces informations peuvent être difficiles à interpréter, notamment pour les propriétaires qui maîtrisent peu l'entretien de leur bassin.",
@@ -28,7 +29,7 @@ window.portfolioProjects = [
       },
       {
         title: "Démarche",
-        heading: "Comprendre, structurer, prototyper et tester la solution.",
+        heading: "Comprendre, structurer, prototyper et tester la solution",
         paragraphs: [
           "J'ai commencé par une phase de recherche afin de mieux comprendre le marché de la piscine, les habitudes des propriétaires et les difficultés rencontrées dans l'entretien d'un bassin. J'ai étudié les solutions déjà présentes sur le marché et réalisé un benchmark afin d'identifier leurs fonctionnalités, leurs points forts et les opportunités d'amélioration.",
           "J'ai également réalisé un questionnaire qui m'a permis de recueillir 49 réponses, dont 45 provenant de particuliers. Cette recherche m'a aidée à mieux comprendre les attentes autour de la simplicité d'utilisation, du suivi à distance, des alertes et de la maîtrise des consommations.",
@@ -41,7 +42,7 @@ window.portfolioProjects = [
       },
       {
         title: "Outils",
-        heading: "Des outils choisis pour organiser, concevoir et prioriser.",
+        heading: "Des outils choisis pour organiser, concevoir et prioriser",
         paragraphs: [
           "Figma a été mon outil principal pour la conception des wireframes, des interfaces, des composants et du prototype interactif de l'application. J'ai également utilisé FigJam pour organiser certaines étapes de réflexion et structurer les parcours.",
           "J'ai utilisé Trello pour organiser le projet sur la durée et suivre les différentes étapes de conception. La méthode MoSCoW m'a permis de hiérarchiser les fonctionnalités et de distinguer celles indispensables à la première version de celles pouvant être développées ultérieurement.",
@@ -51,7 +52,7 @@ window.portfolioProjects = [
       },
       {
         title: "Résultats",
-        heading: "Une expérience conçue pour simplifier la gestion quotidienne d'une piscine.",
+        heading: "Une expérience conçue pour simplifier la gestion quotidienne d'une piscine",
         paragraphs: [
           "Après un an de travail, Sondélia a abouti à la conception d'un prototype d'application mobile permettant à un propriétaire de suivre plus simplement l'état de sa piscine.",
           "L'utilisateur peut retrouver les principales données de son bassin dans une même interface, consulter leur évolution, recevoir des alertes et accéder à des conseils lorsqu'une intervention est nécessaire. Selon l'abonnement choisi, l'expérience peut également être étendue au pilotage à distance de certains équipements connectés.",
@@ -61,7 +62,7 @@ window.portfolioProjects = [
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Apprendre à justifier, prioriser et faire évoluer une idée.",
+        heading: "Apprendre à justifier, prioriser et faire évoluer une idée",
         paragraphs: [
           "Sondélia est le projet qui m'a permis de mettre en pratique l'ensemble des compétences développées pendant mon Mastère. Le fait de travailler dessus pendant un an m'a appris à faire évoluer une idée initiale plutôt qu'à chercher immédiatement une solution graphique.",
           "J'ai surtout appris à justifier mes décisions. Mes choix d'interface devaient répondre à un besoin identifié et être compréhensibles par les utilisateurs. Les tests m'ont montré que certains éléments qui me semblaient évidents ne l'étaient pas nécessairement pour les autres, ce qui m'a amenée à modifier et simplifier plusieurs parties de l'application.",
@@ -74,6 +75,7 @@ window.portfolioProjects = [
   },
   {
     id: "the-y-festival",
+    cardDescription: "Refonte réalisée en binôme autour de l’identité visuelle et de l’expérience digitale d’un festival.",
     title: "The Y Festival",
     category: "UX/UI & direction visuelle",
     description: "Refonte UX/UI du site de The Y Festival pour sa deuxième édition, accompagnée d'une nouvelle direction visuelle déclinée sur différents supports de communication.",
@@ -89,7 +91,7 @@ window.portfolioProjects = [
     score: [
       {
         title: "Contexte",
-        heading: "Une refonte digitale réalisée en binôme pour la deuxième édition du festival.",
+        heading: "Une refonte digitale réalisée en binôme pour la deuxième édition du festival",
         paragraphs: [
           "The Y Festival est un projet étudiant auquel j'ai participé dans le cadre de la deuxième édition du festival. Le projet a été réalisé en binôme avec l'objectif de repenser l'univers digital de l'événement tout en conservant son identité et son logo existants.",
           "Notre travail portait principalement sur la refonte complète du site internet. L'enjeu était de proposer une nouvelle direction visuelle, plus cohérente avec l'univers du festival, tout en facilitant l'accès aux informations essentielles comme la programmation, les artistes, les informations pratiques ou encore la présentation de l'événement.",
@@ -99,7 +101,7 @@ window.portfolioProjects = [
       },
       {
         title: "Démarche",
-        heading: "Repenser l'expérience et construire une identité cohérente sur l'ensemble des supports.",
+        heading: "Repenser l'expérience et construire une identité cohérente sur l'ensemble des supports",
         paragraphs: [
           "Nous avons commencé par analyser l'identité existante du festival et les contenus nécessaires pour cette deuxième édition. Le logo a été conservé, mais nous avons fait évoluer l'univers graphique avec une nouvelle palette de couleurs et une direction visuelle pensée pour donner davantage de personnalité à l'événement.",
           "Nous avons ensuite retravaillé l'ensemble de l'architecture et des pages du site. L'objectif était de hiérarchiser les informations et de construire des parcours permettant aux visiteurs de retrouver rapidement la programmation, les artistes et les informations liées au festival.",
@@ -111,7 +113,7 @@ window.portfolioProjects = [
       },
       {
         title: "Outils",
-        heading: "Des outils adaptés à la conception, au prototypage et à la création graphique.",
+        heading: "Des outils adaptés à la conception, au prototypage et à la création graphique",
         paragraphs: [
           "Figma a été notre outil principal pour concevoir les wireframes, les interfaces desktop et mobile, les composants et le prototype interactif. Le travail sur les animations nous a permis de préciser le comportement de certains éléments et de mieux communiquer nos intentions aux développeurs.",
           "La création des différents supports de communication nous a également amenées à travailler avec les outils Adobe pour adapter l'identité du festival aux contraintes du print et des différents formats digitaux.",
@@ -121,7 +123,7 @@ window.portfolioProjects = [
       },
       {
         title: "Résultats",
-        heading: "Une identité déclinée du site internet aux supports du festival.",
+        heading: "Une identité déclinée du site internet aux supports du festival",
         paragraphs: [
           "Le projet a abouti à une refonte complète du site de The Y Festival pour sa deuxième édition, avec une nouvelle direction graphique, une nouvelle palette de couleurs et des interfaces pensées pour le desktop et le mobile.",
           "Les maquettes et prototypes réalisés sur Figma ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la structure des pages, le responsive et les animations.",
@@ -131,7 +133,7 @@ window.portfolioProjects = [
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Concevoir à plusieurs et penser au-delà de la maquette.",
+        heading: "Concevoir à plusieurs et penser au-delà de la maquette",
         paragraphs: [
           "The Y Festival m'a permis de travailler sur un projet collectif dans lequel mes choix de conception devaient être compris et partagés avec ma binôme, mais également suffisamment documentés pour être retranscrits par une équipe de développement.",
           "J'ai appris à aller plus loin que la réalisation d'une interface visuellement aboutie. Une maquette destinée à être développée doit préciser les comportements, les interactions, le responsive et les différents états des composants afin de limiter les interprétations lors de son intégration.",
@@ -145,6 +147,7 @@ window.portfolioProjects = [
   },
   {
     id: "mademoiselle-azalee",
+    cardDescription: "Refonte d’un site e-commerce Shopify réalisée dans un contexte professionnel, de la conception des interfaces à l’intégration des contenus.",
     title: "Mademoiselle Azalée",
     category: "E-commerce Shopify",
     description: "Refonte e-commerce Shopify pour une boutique de prêt-à-porter et accessoires.",
@@ -160,7 +163,7 @@ window.portfolioProjects = [
     score: [
       {
         title: "Contexte",
-        heading: "Une refonte Shopify menée dans le cadre d'un stage en boutique.",
+        heading: "Une refonte Shopify menée dans le cadre d'un stage en boutique",
         paragraphs: [
           "Dans le cadre de mon stage de trois mois chez Mademoiselle Azalée, une boutique indépendante située à Agen, j'ai participé à la refonte de son site e-commerce Shopify. La boutique propose des bijoux, de la maroquinerie et des créations uniques, avec un univers visuel déjà bien présent en magasin.",
           "Mon objectif était de faire évoluer le site existant afin qu'il retranscrive mieux cet univers, tout en améliorant la présentation des produits et l'expérience de navigation. Le projet devait également tenir compte d'une contrainte importante : travailler à partir de Shopify et de l'existant, sans repartir de zéro.",
@@ -169,7 +172,7 @@ window.portfolioProjects = [
       },
       {
         title: "Démarche",
-        heading: "Analyser l'existant, retravailler les contenus et relier le digital au terrain.",
+        heading: "Analyser l'existant, retravailler les contenus et relier le digital au terrain",
         paragraphs: [
           "J'ai commencé par analyser le site existant afin d'identifier les éléments à conserver et ceux qui pouvaient être améliorés. J'ai également observé d'autres sites e-commerce afin d'identifier les pratiques intéressantes en matière de navigation, de présentation des collections et de mise en valeur des produits.",
           "À partir de cette analyse, j'ai travaillé directement sur Shopify pour faire évoluer la structure et l'apparence du site. J'ai retravaillé différentes pages, leur hiérarchie visuelle, l'organisation des contenus et leur adaptation aux différents formats d'écran.",
@@ -179,7 +182,7 @@ window.portfolioProjects = [
       },
       {
         title: "Outils",
-        heading: "Shopify, photographie, responsive design et SEO.",
+        heading: "Shopify, photographie, responsive design et SEO",
         paragraphs: [
           "Shopify a été mon outil principal puisque j'ai travaillé directement sur le site existant. Cette contrainte m'a demandé d'adapter mes propositions aux possibilités du CMS et du thème utilisé, plutôt que de concevoir une interface impossible à reproduire techniquement.",
           "J'ai également utilisé mes compétences en photographie et en retouche d'image pour travailler les visuels, ainsi que des principes de responsive design pour vérifier la cohérence des pages sur différents écrans.",
@@ -188,7 +191,7 @@ window.portfolioProjects = [
       },
       {
         title: "Résultats",
-        heading: "Une refonte réellement mise en œuvre dans un contexte professionnel.",
+        heading: "Une refonte réellement mise en œuvre dans un contexte professionnel",
         paragraphs: [
           "À l'issue de mon stage, le site avait évolué vers une présentation plus cohérente avec l'univers de Mademoiselle Azalée et une meilleure mise en valeur de ses produits.",
           "Contrairement à un projet scolaire ou fictif, mes choix devaient ici répondre à des contraintes réelles : identité existante, catalogue de produits, fonctionnement de Shopify, besoins de la boutique et utilisation réelle du site par les clientes.",
@@ -197,7 +200,7 @@ window.portfolioProjects = [
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Comprendre qu'une refonte se construit à partir de l'existant.",
+        heading: "Comprendre qu'une refonte se construit à partir de l'existant",
         paragraphs: [
           "Ce projet m'a permis de découvrir la refonte d'un produit digital existant dans un contexte professionnel réel. J'ai appris qu'une refonte ne consiste pas forcément à tout modifier. Il faut d'abord comprendre ce qui fonctionne, identifier ce qui pose problème puis prioriser les changements qui apportent réellement quelque chose à l'expérience.",
           "J'ai également appris à composer avec des contraintes techniques. Travailler directement sur Shopify m'a obligée à trouver un équilibre entre mes intentions de design et ce qu'il était réellement possible de mettre en place.",
@@ -210,6 +213,7 @@ window.portfolioProjects = [
   },
   {
     id: "pinus-esquirou",
+    cardDescription: "Création d’une identité visuelle et de son expérience digitale autour de l’univers du pin et de la forêt.",
     title: "Pinus Esquirou",
     category: "Direction artistique",
     description: "Conception d'une identité de marque et de son expérience digitale, inspirées par l'univers du pin et de la forêt.",
@@ -224,7 +228,7 @@ window.portfolioProjects = [
     score: [
       {
         title: "Contexte",
-        heading: "Une identité et une expérience digitale inspirées par l'univers du pin et de la forêt.",
+        heading: "Une identité et une expérience digitale inspirées par l'univers du pin et de la forêt",
         paragraphs: [
           "Pinus Esquirou est un projet réalisé lors de ma formation de Concepteur Designer UI à La Piscine. L'objectif était de concevoir l'identité et l'expérience digitale d'une marque en travaillant aussi bien sur son univers graphique que sur ses différents supports de communication.",
           "J'ai choisi de construire ce projet autour de l'univers du pin et de la forêt, un sujet qui me tenait particulièrement à cœur. J'ai grandi entourée de pins et cet environnement fait partie de mon quotidien depuis longtemps. Il m'a donc semblé naturel de m'appuyer sur cet univers pour développer un projet personnel tout en travaillant sur une problématique de design.",
@@ -233,7 +237,7 @@ window.portfolioProjects = [
       },
       {
         title: "Démarche",
-        heading: "Construire une identité, puis la décliner dans une interface cohérente.",
+        heading: "Construire une identité, puis la décliner dans une interface cohérente",
         paragraphs: [
           "J'ai commencé par une phase de recherche afin de mieux définir l'univers du projet et la direction graphique à adopter. J'ai réalisé un benchmark et exploré différentes références visuelles avant de construire progressivement l'identité de Pinus Esquirou.",
           "J'ai ensuite travaillé sur les éléments graphiques de la marque, notamment le logo, les couleurs, les typographies et les principes visuels permettant de créer un univers identifiable. Cette identité m'a servi de base pour concevoir les différents supports du projet.",
@@ -243,7 +247,7 @@ window.portfolioProjects = [
       },
       {
         title: "Outils",
-        heading: "Illustrator, Adobe XD, InDesign et Procreate au service du projet.",
+        heading: "Illustrator, Adobe XD, InDesign et Procreate au service du projet",
         paragraphs: [
           "J'ai utilisé plusieurs outils selon les différentes étapes du projet. Illustrator m'a permis de travailler sur l'identité et les éléments graphiques, tandis que Adobe XD a été utilisé pour la conception des interfaces.",
           "J'ai également utilisé InDesign pour certains supports de présentation et Procreate pour la création d'éléments graphiques et d'illustrations."
@@ -251,7 +255,7 @@ window.portfolioProjects = [
       },
       {
         title: "Résultats",
-        heading: "Un univers de marque complet, des supports de communication à l'expérience digitale.",
+        heading: "Un univers de marque complet, des supports de communication à l'expérience digitale",
         paragraphs: [
           "Le projet a abouti à la création d'un univers de marque complet, décliné sur plusieurs supports et sur une expérience digitale.",
           "L'identité visuelle et les interfaces ont été pensées comme un ensemble afin que l'utilisateur retrouve les mêmes codes graphiques tout au long de son expérience. Le projet m'a ainsi permis d'aller au-delà de la conception de quelques écrans isolés pour réfléchir à la cohérence globale d'une marque et de ses différents points de contact."
@@ -259,7 +263,7 @@ window.portfolioProjects = [
       },
       {
         title: "Ce que j'en retiens",
-        heading: "Construire des règles graphiques solides et une démarche créative structurée.",
+        heading: "Construire des règles graphiques solides et une démarche créative structurée",
         paragraphs: [
           "Pinus Esquirou m'a permis de comprendre l'importance de construire une identité avant de commencer à décliner des interfaces. J'ai appris à définir des règles graphiques suffisamment solides pour pouvoir les appliquer sur différents supports tout en conservant une cohérence visuelle.",
           "Le projet m'a également fait progresser dans la conception d'interfaces, notamment sur la hiérarchie de l'information, la composition et la navigation. J'ai commencé à davantage réfléchir à la fonction de chaque élément plutôt qu'à son aspect graphique uniquement.",

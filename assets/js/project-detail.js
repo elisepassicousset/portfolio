@@ -80,7 +80,7 @@ if (detailRoot && currentProject) {
   detailRoot.innerHTML = `
     <section class="page-hero">
       <p class="eyebrow">Projet introuvable</p>
-      <h1>Ce projet n'est pas disponible.</h1>
+      <h1>Ce projet n'est pas disponible</h1>
       <p>Retournez à la page projets pour consulter la sélection complète.</p>
       <a class="btn btn-primary" href="projects.html">Voir les projets</a>
     </section>

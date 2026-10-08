@@ -44,7 +44,7 @@ document.querySelectorAll("[data-projects-preview]").forEach((container) => {
 });
 
 document.querySelectorAll("[data-projects-grid]").forEach((container) => {
-  projects.forEach((project) => container.appendChild(createProjectCard(project)));
+  projects.forEach((project) => container.appendChild(createProjectCard(project, project.cardDescription)));
 });
 
 const backToTopButton = document.createElement("button");
