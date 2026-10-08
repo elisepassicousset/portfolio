@@ -251,6 +251,25 @@ select {
   object-position: 50% 42%;
 }
 
+@media (min-width: 941px) {
+  .home-hero {
+    align-content: center;
+  }
+
+  .home-hero .hero-photo-wrap {
+    contain: size;
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    aspect-ratio: 21 / 25;
+  }
+
+  .home-hero .hero-photo {
+    position: absolute;
+    inset: 0;
+  }
+}
+
 .hero-visual::before {
   content: "";
   position: absolute;
