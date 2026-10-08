@@ -171,13 +171,13 @@ select {
 }
 
 .section {
-  padding: 92px 0;
+  padding: 48px 0;
 }
 
 .section-light {
   width: 100%;
   max-width: none;
-  padding: 92px max(16px, calc((100vw - var(--max-width)) / 2));
+  padding: 48px max(16px, calc((100vw - var(--max-width)) / 2));
   background: var(--beige-soft);
 }
 
@@ -190,9 +190,9 @@ select {
   grid-template-columns: minmax(0, 1.1fr) minmax(300px, 420px);
   gap: 72px;
   align-items: center;
-  min-height: calc(100vh - 96px);
+  min-height: auto;
   padding-top: 64px;
-  padding-bottom: 56px;
+  padding-bottom: 32px;
 }
 
 .home-hero {
@@ -451,7 +451,7 @@ select {
 .section-heading {
   display: grid;
   gap: 12px;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .about-hero {
@@ -523,7 +523,7 @@ select {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 24px;
-  padding-top: 48px;
+  padding-top: 24px;
 }
 
 .about-card {
@@ -553,6 +553,10 @@ select {
 
 .about-split-card .content-stack p {
   font-size: var(--font-body);
+}
+
+.about-split-card .content-stack {
+  align-content: start;
 }
 
 .process-steps {
@@ -748,7 +752,7 @@ select {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 80px 70px;
+  gap: 48px 40px;
 }
 
 .project-grid-wide {
@@ -863,15 +867,15 @@ select {
   display: grid;
   gap: 18px;
   justify-items: start;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   padding: 64px;
   border-radius: var(--radius);
   background: var(--beige);
 }
 
 .section.home-projects {
-  padding-top: 32px;
-  padding-bottom: 48px;
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 
 .home-section-heading {
@@ -888,7 +892,7 @@ select {
   grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   align-items: center;
   gap: 36px;
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .home-project-image {
@@ -939,7 +943,7 @@ select {
   justify-items: start;
   gap: 24px;
   width: 100%;
-  padding: 48px max(24px, calc((100% - var(--max-width)) / 2));
+  padding: 40px max(24px, calc((100% - var(--max-width)) / 2));
   background: var(--beige-soft);
 }
 
@@ -979,8 +983,8 @@ select {
   display: grid;
   justify-items: start;
   gap: 24px;
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .home-opportunity > p {
@@ -1019,8 +1023,8 @@ select {
   }
 
   .section.home-opportunity {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -1028,12 +1032,16 @@ select {
 .project-detail-hero {
   display: grid;
   gap: 18px;
-  padding: 112px 0 54px;
+  padding: 112px 0 24px;
 }
 
 .projects-hero {
-  padding-bottom: 62px;
+  padding-bottom: 24px;
   text-align: left;
+}
+
+.projects-hero + .section {
+  padding-top: 24px;
 }
 
 .project-detail-hero-layout {
@@ -1103,7 +1111,7 @@ select {
 }
 
 .contact-hero {
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .contact-hero h1 {
@@ -1116,8 +1124,8 @@ select {
 
 .contact-layout {
   align-items: stretch;
-  padding-top: 28px;
-  padding-bottom: 56px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .contact-layout-single {
@@ -1242,7 +1250,7 @@ select {
 .project-score-section {
   display: grid;
   gap: 28px;
-  padding-top: 34px;
+  padding-top: 24px;
 }
 
 .score-list {
@@ -1306,7 +1314,7 @@ select {
   gap: 28px;
   align-items: center;
   width: min(calc(100% - 32px), var(--max-width));
-  margin: 0 auto 80px;
+  margin: 0 auto 40px;
   padding: 34px 56px;
   border-radius: var(--radius);
   background: var(--beige);
@@ -1467,7 +1475,7 @@ select {
   }
 
   .project-grid {
-    gap: 58px 34px;
+    gap: 40px 28px;
   }
 
   .score-card {
@@ -1524,13 +1532,14 @@ select {
 
   .section,
   .section-light {
-    padding-top: 68px;
-    padding-bottom: 68px;
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 
   .hero {
-    gap: 34px;
+    gap: 24px;
     padding-top: 112px;
+    padding-bottom: 24px;
   }
 
   .hero-visual {
@@ -1577,7 +1586,7 @@ select {
   }
 
   .project-grid {
-    gap: 48px;
+    gap: 32px;
   }
 
   .project-image {
@@ -1637,7 +1646,7 @@ select {
 
   .page-hero,
   .project-detail-hero {
-    padding-top: 84px;
+    padding-top: 112px;
   }
 
   .site-footer {
