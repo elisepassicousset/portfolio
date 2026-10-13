@@ -1321,11 +1321,6 @@ select {
   object-fit: cover;
 }
 
-.score-visual-slot-filled .score-visual-image-contain {
-  object-fit: contain;
-  background: var(--white);
-}
-
 .project-zoom-trigger {
   padding: 0;
   cursor: zoom-in;

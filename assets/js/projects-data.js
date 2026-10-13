@@ -47,18 +47,15 @@ window.portfolioProjects = [
         visuals: [
           {
             src: "assets/images/projects/sondelia-demarche-questionnaire.png",
-            alt: "Synthèse des résultats du questionnaire Sondélia auprès de 49 répondants",
-            fit: "contain"
+            alt: "Synthèse des résultats du questionnaire Sondélia auprès de 49 répondants"
           },
           {
             src: "assets/images/projects/sondelia-demarche-wireframes.png",
-            alt: "Wireframes dessinés à la main pour les parcours de l'application Sondélia",
-            fit: "contain"
+            alt: "Wireframes dessinés à la main pour les parcours de l'application Sondélia"
           },
           {
             src: "assets/images/projects/sondelia-demarche-iterations.png",
-            alt: "Comparaison avant et après des écrans de suivi des données de la piscine dans Sondélia",
-            fit: "contain"
+            alt: "Comparaison avant et après des écrans de suivi des données de la piscine dans Sondélia"
           }
         ],
         paragraphs: [
@@ -77,18 +74,15 @@ window.portfolioProjects = [
         visuals: [
           {
             src: "assets/images/projects/sondelia-outils-figjam.png",
-            alt: "Tableau FigJam regroupant les recherches et la réflexion autour de Sondélia",
-            fit: "contain"
+            alt: "Tableau FigJam regroupant les recherches et la réflexion autour de Sondélia"
           },
           {
             src: "assets/images/projects/sondelia-outils-figma.png",
-            alt: "Fichier Figma des wireframes et maquettes de l'application Sondélia",
-            fit: "contain"
+            alt: "Fichier Figma des wireframes et maquettes de l'application Sondélia"
           },
           {
             src: "assets/images/projects/sondelia-outils-trello.png",
-            alt: "Tableau Trello de planification des étapes du projet Sondélia",
-            fit: "contain"
+            alt: "Tableau Trello de planification des étapes du projet Sondélia"
           }
         ],
         paragraphs: [
@@ -104,18 +98,15 @@ window.portfolioProjects = [
         visuals: [
           {
             src: "assets/images/projects/sondelia-resultats-site.png",
-            alt: "Présentation du site Sondélia sur un ordinateur portable",
-            fit: "contain"
+            alt: "Présentation du site Sondélia sur un ordinateur portable"
           },
           {
             src: "assets/images/projects/sondelia-resultats-app.png",
-            alt: "Trois écrans de l'application Sondélia : accueil, données de la piscine et conseils liés aux alertes",
-            fit: "contain"
+            alt: "Trois écrans de l'application Sondélia : accueil, données de la piscine et conseils liés aux alertes"
           },
           {
             src: "assets/images/projects/sondelia-resultats-instagram.png",
-            alt: "Mise en situation d'un post Instagram présentant Sondélia sur un téléphone",
-            fit: "contain"
+            alt: "Mise en situation d'un post Instagram présentant Sondélia sur un téléphone"
           }
         ],
         paragraphs: [
