@@ -5,9 +5,9 @@ const currentProject = projects.find((project) => project.id === params.get("id"
 if (detailRoot && currentProject) {
   const heroVisual = currentProject.image
     ? `
-      <div class="project-detail-hero-visual" aria-hidden="true">
+      <button class="project-detail-hero-visual project-zoom-trigger" type="button" data-project-zoom aria-label="Agrandir le visuel ${currentProject.title}">
         <img src="${currentProject.image}" alt="">
-      </div>
+      </button>
     `
     : "";
   const scoreSections = currentProject.score
@@ -20,11 +20,11 @@ if (detailRoot && currentProject) {
         </div>
         <div class="score-visual-grid" aria-label="Visuels ${section.title}">
           ${Array.from({ length: section.visualSlots || 3 }, (_, index) => `
-            <div class="score-visual-slot${section.visuals?.[index] ? " score-visual-slot-filled" : ""}">
+            <${section.visuals?.[index] ? `button type="button" data-project-zoom aria-label="Agrandir : ${section.visuals[index].alt}"` : "div"} class="score-visual-slot${section.visuals?.[index] ? " score-visual-slot-filled project-zoom-trigger" : ""}">
               ${section.visuals?.[index]
                 ? `<img class="${section.visuals[index].fit === "contain" ? "score-visual-image-contain" : ""}" src="${section.visuals[index].src}" alt="${section.visuals[index].alt}" loading="lazy" decoding="async">`
                 : `<span>Visuel ${index + 1}</span>`}
-            </div>
+            </${section.visuals?.[index] ? "button" : "div"}>
           `).join("")}
         </div>
       </article>
@@ -39,9 +39,9 @@ if (detailRoot && currentProject) {
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
         ${currentProject.ctaImage ? `
-          <a class="project-cta-mockup" href="${currentProject.link}" target="_blank" rel="noreferrer" aria-label="Ouvrir le site ${currentProject.title}">
-            <img class="project-cta-image" src="${currentProject.ctaImage}" alt="">
-          </a>
+          <button class="project-cta-mockup project-zoom-trigger" type="button" data-project-zoom aria-label="Agrandir l'aperçu du site ${currentProject.title}">
+            <img class="project-cta-image" src="${currentProject.ctaImage}" alt="Aperçu du site ${currentProject.title}">
+          </button>
         ` : ""}
       </section>
     `
@@ -87,4 +87,44 @@ if (detailRoot && currentProject) {
       <a class="btn btn-primary" href="projects.html">Voir les projets</a>
     </section>
   `;
+}
+
+if (detailRoot && currentProject) {
+  const lightbox = document.createElement("dialog");
+  lightbox.className = "project-lightbox";
+  lightbox.setAttribute("aria-label", "Visuel agrandi du projet");
+  lightbox.innerHTML = `
+    <div class="project-lightbox-content">
+      <button class="project-lightbox-close" type="button" aria-label="Fermer le zoom" autofocus>
+        <span aria-hidden="true">×</span>
+      </button>
+      <img class="project-lightbox-image" alt="">
+    </div>
+  `;
+  document.body.appendChild(lightbox);
+  const enlargedImage = lightbox.querySelector("img");
+  let activeTrigger;
+  let previousOverflow;
+
+  detailRoot.addEventListener("click", (event) => {
+    const trigger = event.target.closest("[data-project-zoom]");
+    if (!trigger) return;
+    const image = trigger.querySelector("img");
+    activeTrigger = trigger;
+    enlargedImage.src = image.currentSrc || image.src;
+    enlargedImage.alt = image.alt || `Visuel du projet ${currentProject.title}`;
+    previousOverflow = document.documentElement.style.overflow;
+    document.documentElement.style.overflow = "hidden";
+    lightbox.showModal();
+  });
+
+  lightbox.querySelector("button").addEventListener("click", () => lightbox.close());
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) lightbox.close();
+  });
+  lightbox.addEventListener("close", () => {
+    document.documentElement.style.overflow = previousOverflow;
+    enlargedImage.removeAttribute("src");
+    activeTrigger?.focus({ preventScroll: true });
+  });
 }
