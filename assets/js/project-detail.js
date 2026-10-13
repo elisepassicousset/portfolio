@@ -18,15 +18,15 @@ if (detailRoot && currentProject) {
           <h2>${section.heading}</h2>
           ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
         </div>
-        <div class="score-visual-grid" aria-label="Visuels ${section.title}">
-          ${Array.from({ length: section.visualSlots || 3 }, (_, index) => `
+        ${(section.visualSlots ?? 3) > 0 ? `<div class="score-visual-grid" aria-label="Visuels ${section.title}">
+          ${Array.from({ length: section.visualSlots ?? 3 }, (_, index) => `
             <${section.visuals?.[index] ? `button type="button" data-project-zoom aria-label="Agrandir : ${section.visuals[index].alt}"` : "div"} class="score-visual-slot${section.visuals?.[index] ? " score-visual-slot-filled project-zoom-trigger" : ""}">
               ${section.visuals?.[index]
                 ? `<img class="${section.visuals[index].fit === "contain" ? "score-visual-image-contain" : ""}" src="${section.visuals[index].src}" alt="${section.visuals[index].alt}" loading="lazy" decoding="async">`
                 : `<span>Visuel ${index + 1}</span>`}
             </${section.visuals?.[index] ? "button" : "div"}>
           `).join("")}
-        </div>
+        </div>` : ""}
       </article>
     `).join("")
     : "";
@@ -39,9 +39,9 @@ if (detailRoot && currentProject) {
           <a class="btn btn-primary" href="${currentProject.link}" target="_blank" rel="noreferrer">Ouvrir le site</a>
         </div>
         ${currentProject.ctaImage ? `
-          <button class="project-cta-mockup project-zoom-trigger" type="button" data-project-zoom aria-label="Agrandir l'aperçu du site ${currentProject.title}">
+          <a class="project-cta-mockup" href="${currentProject.link}" target="_blank" rel="noreferrer" aria-label="Ouvrir le site ${currentProject.title}">
             <img class="project-cta-image" src="${currentProject.ctaImage}" alt="Aperçu du site ${currentProject.title}">
-          </button>
+          </a>
         ` : ""}
       </section>
     `

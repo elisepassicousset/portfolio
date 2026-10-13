@@ -1331,13 +1331,8 @@ select {
   cursor: zoom-in;
 }
 
-.project-detail-hero-visual.project-zoom-trigger,
-.project-cta-mockup.project-zoom-trigger {
+.project-detail-hero-visual.project-zoom-trigger {
   border: 0;
-}
-
-.project-cta-mockup.project-zoom-trigger {
-  background: transparent;
 }
 
 .project-zoom-trigger:focus-visible,

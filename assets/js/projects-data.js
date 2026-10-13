@@ -94,6 +94,7 @@ window.portfolioProjects = [
       {
         title: "Ce que j'en retiens",
         heading: "Apprendre à justifier, prioriser et faire évoluer une idée",
+        visualSlots: 0,
         paragraphs: [
           "Sondélia est le projet qui m'a permis de mettre en pratique l'ensemble des compétences développées pendant mon Mastère. Le fait de travailler dessus pendant un an m'a appris à faire évoluer une idée initiale plutôt qu'à chercher immédiatement une solution graphique.",
           "J'ai surtout appris à justifier mes décisions. Mes choix d'interface devaient répondre à un besoin identifié et être compréhensibles par les utilisateurs. Les tests m'ont montré que certains éléments qui me semblaient évidents ne l'étaient pas nécessairement pour les autres, ce qui m'a amenée à modifier et simplifier plusieurs parties de l'application.",
