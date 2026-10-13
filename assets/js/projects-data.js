@@ -74,6 +74,23 @@ window.portfolioProjects = [
       {
         title: "Outils",
         heading: "Des outils choisis pour organiser, concevoir et prioriser",
+        visuals: [
+          {
+            src: "assets/images/projects/sondelia-outils-figjam.png",
+            alt: "Tableau FigJam regroupant les recherches et la réflexion autour de Sondélia",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-outils-figma.png",
+            alt: "Fichier Figma des wireframes et maquettes de l'application Sondélia",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-outils-trello.png",
+            alt: "Tableau Trello de planification des étapes du projet Sondélia",
+            fit: "contain"
+          }
+        ],
         paragraphs: [
           "Figma a été mon outil principal pour la conception des wireframes, des interfaces, des composants et du prototype interactif de l'application. J'ai également utilisé FigJam pour organiser certaines étapes de réflexion et structurer les parcours.",
           "J'ai utilisé Trello pour organiser le projet sur la durée et suivre les différentes étapes de conception. La méthode MoSCoW m'a permis de hiérarchiser les fonctionnalités et de distinguer celles indispensables à la première version de celles pouvant être développées ultérieurement.",
