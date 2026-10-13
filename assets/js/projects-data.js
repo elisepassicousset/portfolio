@@ -171,12 +171,18 @@ window.portfolioProjects = [
       {
         title: "Outils",
         heading: "Des outils adaptés à la conception, au prototypage et à la création graphique",
+        visuals: [
+          {
+            src: "assets/images/projects/the-y-festival-outils-figma.png",
+            alt: "Fichier Figma des interfaces et composants du site The Y Festival"
+          }
+        ],
         paragraphs: [
           "Figma a été notre outil principal pour concevoir les wireframes, les interfaces desktop et mobile, les composants et le prototype interactif. Le travail sur les animations nous a permis de préciser le comportement de certains éléments et de mieux communiquer nos intentions aux développeurs.",
           "La création des différents supports de communication nous a également amenées à travailler avec les outils Adobe pour adapter l'identité du festival aux contraintes du print et des différents formats digitaux.",
           "Le travail en binôme a demandé de maintenir une cohérence entre nos différentes productions. Nous avons donc dû partager nos choix graphiques, organiser les fichiers et conserver les mêmes règles de conception tout au long du projet."
         ],
-        visualSlots: 3
+        visualSlots: 1
       },
       {
         title: "Résultats",
