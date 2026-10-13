@@ -20,6 +20,20 @@ window.portfolioProjects = [
       {
         title: "Contexte",
         heading: "Un projet de fin d'études mené comme une démarche produit complète",
+        visuals: [
+          {
+            src: "assets/images/projects/sondelia-context-sonde.png",
+            alt: "Sonde Sondélia installée sur le bord d'une piscine pour suivre la qualité de l'eau"
+          },
+          {
+            src: "assets/images/projects/sondelia-context-piscine.png",
+            alt: "Piscine extérieure entourée d'une terrasse et d'un jardin"
+          },
+          {
+            src: "assets/images/projects/sondelia-context-module.png",
+            alt: "Module Bluetooth Sondélia connecté à un équipement de piscine"
+          }
+        ],
         paragraphs: [
           "Sondélia est un projet fictif que j'ai imaginé et développé pendant un an dans le cadre de mon projet de fin d'études en Mastère Product Designer UX/UI. Présenté lors de ma soutenance, il m'a permis de mener une démarche de Product Design complète, depuis la recherche d'une problématique jusqu'à la conception et au prototypage de la solution.",
           "Le projet part d'un constat : l'entretien d'une piscine demande de surveiller régulièrement plusieurs paramètres, comme le pH, le chlore, la température, le TAC, le TH ou encore le niveau d'eau. Ces informations peuvent être difficiles à interpréter, notamment pour les propriétaires qui maîtrisent peu l'entretien de leur bassin.",

@@ -20,8 +20,10 @@ if (detailRoot && currentProject) {
         </div>
         <div class="score-visual-grid" aria-label="Visuels ${section.title}">
           ${Array.from({ length: section.visualSlots || 3 }, (_, index) => `
-            <div class="score-visual-slot">
-              <span>Visuel ${index + 1}</span>
+            <div class="score-visual-slot${section.visuals?.[index] ? " score-visual-slot-filled" : ""}">
+              ${section.visuals?.[index]
+                ? `<img src="${section.visuals[index].src}" alt="${section.visuals[index].alt}" loading="lazy" decoding="async">`
+                : `<span>Visuel ${index + 1}</span>`}
             </div>
           `).join("")}
         </div>

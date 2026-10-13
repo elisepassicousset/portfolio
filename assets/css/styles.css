@@ -1308,6 +1308,19 @@ select {
   text-transform: uppercase;
 }
 
+.score-visual-slot-filled {
+  position: relative;
+  overflow: hidden;
+}
+
+.score-visual-slot-filled img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .project-cta-section {
   display: grid;
   grid-template-columns: minmax(0, 0.45fr) minmax(260px, 0.55fr);
