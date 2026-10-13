@@ -22,7 +22,7 @@ if (detailRoot && currentProject) {
           ${Array.from({ length: section.visualSlots || 3 }, (_, index) => `
             <div class="score-visual-slot${section.visuals?.[index] ? " score-visual-slot-filled" : ""}">
               ${section.visuals?.[index]
-                ? `<img src="${section.visuals[index].src}" alt="${section.visuals[index].alt}" loading="lazy" decoding="async">`
+                ? `<img class="${section.visuals[index].fit === "contain" ? "score-visual-image-contain" : ""}" src="${section.visuals[index].src}" alt="${section.visuals[index].alt}" loading="lazy" decoding="async">`
                 : `<span>Visuel ${index + 1}</span>`}
             </div>
           `).join("")}

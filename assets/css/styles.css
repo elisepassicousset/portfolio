@@ -1321,6 +1321,11 @@ select {
   object-fit: cover;
 }
 
+.score-visual-slot-filled .score-visual-image-contain {
+  object-fit: contain;
+  background: var(--white);
+}
+
 .project-cta-section {
   display: grid;
   grid-template-columns: minmax(0, 0.45fr) minmax(260px, 0.55fr);

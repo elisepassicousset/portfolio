@@ -44,6 +44,23 @@ window.portfolioProjects = [
       {
         title: "Démarche",
         heading: "Comprendre, structurer, prototyper et tester la solution",
+        visuals: [
+          {
+            src: "assets/images/projects/sondelia-demarche-questionnaire.png",
+            alt: "Synthèse des résultats du questionnaire Sondélia auprès de 49 répondants",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-demarche-wireframes.png",
+            alt: "Wireframes dessinés à la main pour les parcours de l'application Sondélia",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-demarche-iterations.png",
+            alt: "Comparaison avant et après des écrans de suivi des données de la piscine dans Sondélia",
+            fit: "contain"
+          }
+        ],
         paragraphs: [
           "J'ai commencé par une phase de recherche afin de mieux comprendre le marché de la piscine, les habitudes des propriétaires et les difficultés rencontrées dans l'entretien d'un bassin. J'ai étudié les solutions déjà présentes sur le marché et réalisé un benchmark afin d'identifier leurs fonctionnalités, leurs points forts et les opportunités d'amélioration.",
           "J'ai également réalisé un questionnaire qui m'a permis de recueillir 49 réponses, dont 45 provenant de particuliers. Cette recherche m'a aidée à mieux comprendre les attentes autour de la simplicité d'utilisation, du suivi à distance, des alertes et de la maîtrise des consommations.",
