@@ -101,6 +101,23 @@ window.portfolioProjects = [
       {
         title: "Résultats",
         heading: "Une expérience conçue pour simplifier la gestion quotidienne d'une piscine",
+        visuals: [
+          {
+            src: "assets/images/projects/sondelia-resultats-site.png",
+            alt: "Présentation du site Sondélia sur un ordinateur portable",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-resultats-app.png",
+            alt: "Trois écrans de l'application Sondélia : accueil, données de la piscine et conseils liés aux alertes",
+            fit: "contain"
+          },
+          {
+            src: "assets/images/projects/sondelia-resultats-instagram.png",
+            alt: "Mise en situation d'un post Instagram présentant Sondélia sur un téléphone",
+            fit: "contain"
+          }
+        ],
         paragraphs: [
           "Après un an de travail, Sondélia a abouti à la conception d'un prototype d'application mobile permettant à un propriétaire de suivre plus simplement l'état de sa piscine.",
           "L'utilisateur peut retrouver les principales données de son bassin dans une même interface, consulter leur évolution, recevoir des alertes et accéder à des conseils lorsqu'une intervention est nécessaire. Selon l'abonnement choisi, l'expérience peut également être étendue au pilotage à distance de certains équipements connectés.",
