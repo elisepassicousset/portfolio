@@ -276,7 +276,10 @@ window.portfolioProjects = [
         heading: "Analyser l'existant, retravailler les contenus et relier le digital au terrain",
         visualSlots: 2,
         visuals: [
-          null,
+          {
+            src: "assets/images/projects/mademoiselle-azalee-demarche-moodboard.png",
+            alt: "Moodboard Mademoiselle Azalée mêlant bijoux, textiles, couleurs et inspirations indiennes"
+          },
           {
             src: "assets/images/projects/mademoiselle-azalee-demarche-shopify.jpg",
             alt: "Travail sur une fiche produit du site Mademoiselle Azalée dans Shopify"
