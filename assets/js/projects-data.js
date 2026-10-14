@@ -251,6 +251,20 @@ window.portfolioProjects = [
       {
         title: "Contexte",
         heading: "Une refonte Shopify menée dans le cadre d'un stage en boutique",
+        visuals: [
+          {
+            src: "assets/images/projects/mademoiselle-azalee-contexte-miroir.jpg",
+            alt: "Miroir et plantes reflétant l'intérieur de la boutique Mademoiselle Azalée"
+          },
+          {
+            src: "assets/images/projects/mademoiselle-azalee-contexte-boutique.jpg",
+            alt: "Comptoir et collections de maroquinerie dans la boutique Mademoiselle Azalée"
+          },
+          {
+            src: "assets/images/projects/mademoiselle-azalee-contexte-presentoirs.jpg",
+            alt: "Présentoirs, bijoux et décoration intérieure de la boutique Mademoiselle Azalée"
+          }
+        ],
         paragraphs: [
           "Dans le cadre de mon stage de trois mois chez Mademoiselle Azalée, une boutique indépendante située à Agen, j'ai participé à la refonte de son site e-commerce Shopify. La boutique propose des bijoux, de la maroquinerie et des créations uniques, avec un univers visuel déjà bien présent en magasin.",
           "Mon objectif était de faire évoluer le site existant afin qu'il retranscrive mieux cet univers, tout en améliorant la présentation des produits et l'expérience de navigation. Le projet devait également tenir compte d'une contrainte importante : travailler à partir de Shopify et de l'existant, sans repartir de zéro.",
@@ -260,6 +274,14 @@ window.portfolioProjects = [
       {
         title: "Démarche",
         heading: "Analyser l'existant, retravailler les contenus et relier le digital au terrain",
+        visualSlots: 2,
+        visuals: [
+          null,
+          {
+            src: "assets/images/projects/mademoiselle-azalee-demarche-shopify.jpg",
+            alt: "Travail sur une fiche produit du site Mademoiselle Azalée dans Shopify"
+          }
+        ],
         paragraphs: [
           "J'ai commencé par analyser le site existant afin d'identifier les éléments à conserver et ceux qui pouvaient être améliorés. J'ai également observé d'autres sites e-commerce afin d'identifier les pratiques intéressantes en matière de navigation, de présentation des collections et de mise en valeur des produits.",
           "À partir de cette analyse, j'ai travaillé directement sur Shopify pour faire évoluer la structure et l'apparence du site. J'ai retravaillé différentes pages, leur hiérarchie visuelle, l'organisation des contenus et leur adaptation aux différents formats d'écran.",
