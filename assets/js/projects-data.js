@@ -154,7 +154,7 @@ window.portfolioProjects = [
           "Notre travail portait principalement sur la refonte complète du site internet. L'enjeu était de proposer une nouvelle direction visuelle, plus cohérente avec l'univers du festival, tout en facilitant l'accès aux informations essentielles comme la programmation, les artistes, les informations pratiques ou encore la présentation de l'événement.",
           "Le projet ne s'est pas limité au digital. Nous avons également décliné cette nouvelle direction graphique sur différents supports de communication, avec la création d'une affiche destinée au print et au web ainsi que d'un visuel pour un t-shirt."
         ],
-        visualSlots: 3
+        visualSlots: 0
       },
       {
         title: "Démarche",
@@ -227,7 +227,7 @@ window.portfolioProjects = [
           "Ce projet m'a également permis de travailler la cohérence d'une identité sur plusieurs points de contact. Le site, l'affiche et le t-shirt devaient appartenir au même univers tout en répondant à des contraintes et des usages différents.",
           "Il m'a enfin permis de renforcer ma capacité à concevoir en équipe, à confronter mes propositions à celles d'une autre designer et à construire une direction commune plutôt que de travailler uniquement à partir de mes propres choix."
         ],
-        visualSlots: 3
+        visualSlots: 0
       }
     ],
     link: "https://theyfestival.fr/home"
