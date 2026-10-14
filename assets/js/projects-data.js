@@ -197,6 +197,20 @@ window.portfolioProjects = [
       {
         title: "Résultats",
         heading: "Une identité déclinée du site internet aux supports du festival",
+        visuals: [
+          {
+            src: "assets/images/projects/the-y-festival-resultats-site.png",
+            alt: "Site The Y Festival présenté sur un ordinateur portable"
+          },
+          {
+            src: "assets/images/projects/the-y-festival-resultats-affiche.png",
+            alt: "Affiche orange et violette de The Y Festival sur un panneau publicitaire"
+          },
+          {
+            src: "assets/images/projects/the-y-festival-resultats-tshirts.jpg",
+            alt: "T-shirts The Y Festival montrant le logo à l'avant et le visuel au dos"
+          }
+        ],
         paragraphs: [
           "Le projet a abouti à une refonte complète du site de The Y Festival pour sa deuxième édition, avec une nouvelle direction graphique, une nouvelle palette de couleurs et des interfaces pensées pour le desktop et le mobile.",
           "Les maquettes et prototypes réalisés sur Figma ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la structure des pages, le responsive et les animations.",
