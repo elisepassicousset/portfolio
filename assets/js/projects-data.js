@@ -159,6 +159,16 @@ window.portfolioProjects = [
       {
         title: "Démarche",
         heading: "Repenser l'expérience et construire une identité cohérente sur l'ensemble des supports",
+        visuals: [
+          {
+            src: "assets/images/projects/the-y-festival-demarche-moodboard.png",
+            alt: "Moodboard de références graphiques et d'affiches de festivals pour The Y Festival"
+          },
+          {
+            src: "assets/images/projects/the-y-festival-demarche-wireframes.png",
+            alt: "Wireframes des pages accueil, programmation, à propos et informations de The Y Festival"
+          }
+        ],
         paragraphs: [
           "Nous avons commencé par analyser l'identité existante du festival et les contenus nécessaires pour cette deuxième édition. Le logo a été conservé, mais nous avons fait évoluer l'univers graphique avec une nouvelle palette de couleurs et une direction visuelle pensée pour donner davantage de personnalité à l'événement.",
           "Nous avons ensuite retravaillé l'ensemble de l'architecture et des pages du site. L'objectif était de hiérarchiser les informations et de construire des parcours permettant aux visiteurs de retrouver rapidement la programmation, les artistes et les informations liées au festival.",
@@ -166,7 +176,7 @@ window.portfolioProjects = [
           "Une attention particulière a été portée à la préparation des maquettes pour le développement. Les écrans, composants, comportements responsive et interactions devaient être suffisamment détaillés pour permettre aux développeurs de retranscrire correctement nos choix en code.",
           "Enfin, nous avons décliné l'univers graphique du site sur les supports de communication de cette deuxième édition, notamment l'affiche print et web ainsi que le t-shirt du festival."
         ],
-        visualSlots: 3
+        visualSlots: 2
       },
       {
         title: "Outils",
