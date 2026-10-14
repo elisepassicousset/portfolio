@@ -295,6 +295,7 @@ window.portfolioProjects = [
       {
         title: "Outils",
         heading: "Shopify, photographie, responsive design et SEO",
+        visualSlots: 0,
         paragraphs: [
           "Shopify a été mon outil principal puisque j'ai travaillé directement sur le site existant. Cette contrainte m'a demandé d'adapter mes propositions aux possibilités du CMS et du thème utilisé, plutôt que de concevoir une interface impossible à reproduire techniquement.",
           "J'ai également utilisé mes compétences en photographie et en retouche d'image pour travailler les visuels, ainsi que des principes de responsive design pour vérifier la cohérence des pages sur différents écrans.",
@@ -313,6 +314,7 @@ window.portfolioProjects = [
       {
         title: "Ce que j'en retiens",
         heading: "Comprendre qu'une refonte se construit à partir de l'existant",
+        visualSlots: 0,
         paragraphs: [
           "Ce projet m'a permis de découvrir la refonte d'un produit digital existant dans un contexte professionnel réel. J'ai appris qu'une refonte ne consiste pas forcément à tout modifier. Il faut d'abord comprendre ce qui fonctionne, identifier ce qui pose problème puis prioriser les changements qui apportent réellement quelque chose à l'expérience.",
           "J'ai également appris à composer avec des contraintes techniques. Travailler directement sur Shopify m'a obligée à trouver un équilibre entre mes intentions de design et ce qu'il était réellement possible de mettre en place.",
