@@ -266,9 +266,9 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Dans le cadre de mon stage de trois mois chez Mademoiselle Azalée, une boutique indépendante située à Agen, j'ai participé à la refonte de son site e-commerce Shopify. La boutique propose des bijoux, de la maroquinerie et des créations uniques, avec un univers visuel déjà bien présent en magasin.",
-          "Mon objectif était de faire évoluer le site existant afin qu'il retranscrive mieux cet univers, tout en améliorant la présentation des produits et l'expérience de navigation. Le projet devait également tenir compte d'une contrainte importante : travailler à partir de Shopify et de l'existant, sans repartir de zéro.",
-          "Ma présence quotidienne en boutique m'a permis d'avoir une approche différente d'un projet uniquement digital. J'ai pu découvrir les produits, observer leur mise en valeur en magasin et être au contact des clientes afin de mieux comprendre l'univers de la marque."
+          "Dans le cadre de mon <strong>stage de trois mois</strong> chez Mademoiselle Azalée, une boutique indépendante située à Agen, j'ai participé à la <strong>refonte de son site e-commerce Shopify</strong>. La boutique propose des bijoux, de la maroquinerie et des créations uniques, avec un univers visuel déjà bien présent en magasin.",
+          "Mon objectif était de faire évoluer le site existant afin qu'il retranscrive mieux cet univers, tout en <strong>améliorant la présentation des produits et l'expérience de navigation</strong>. Le projet devait également tenir compte d'une contrainte importante : <strong>travailler à partir de Shopify et de l'existant</strong>, sans repartir de zéro.",
+          "Ma <strong>présence quotidienne en boutique</strong> m'a permis d'avoir une approche différente d'un projet uniquement digital. J'ai pu découvrir les produits, observer leur mise en valeur en magasin et <strong>être au contact des clientes</strong> afin de mieux comprendre l'univers de la marque."
         ]
       },
       {
@@ -286,10 +286,10 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "J'ai commencé par analyser le site existant afin d'identifier les éléments à conserver et ceux qui pouvaient être améliorés. J'ai également observé d'autres sites e-commerce afin d'identifier les pratiques intéressantes en matière de navigation, de présentation des collections et de mise en valeur des produits.",
-          "À partir de cette analyse, j'ai travaillé directement sur Shopify pour faire évoluer la structure et l'apparence du site. J'ai retravaillé différentes pages, leur hiérarchie visuelle, l'organisation des contenus et leur adaptation aux différents formats d'écran.",
-          "J'ai également participé à la création et à l'amélioration des contenus du site : photographies, textes, fiches produits et éléments liés au référencement naturel. Mon travail ne s'est donc pas limité à l'interface. J'ai dû réfléchir à la manière dont chaque contenu pouvait participer à la compréhension du produit et à l'expérience globale.",
-          "Le fait de travailler également en boutique m'a permis de relier mes choix digitaux à la réalité du commerce. Je pouvais mieux comprendre quels produits nécessitaient davantage d'explications, comment ils étaient présentés physiquement et quelles informations pouvaient être importantes pour les clientes."
+          "J'ai commencé par <strong>analyser le site existant</strong> afin d'identifier les éléments à conserver et ceux qui pouvaient être améliorés. J'ai également <strong>observé d'autres sites e-commerce</strong> afin d'identifier les pratiques intéressantes en matière de navigation, de présentation des collections et de mise en valeur des produits.",
+          "À partir de cette analyse, j'ai travaillé directement sur Shopify pour <strong>faire évoluer la structure et l'apparence du site</strong>. J'ai retravaillé différentes pages, leur <strong>hiérarchie visuelle, l'organisation des contenus</strong> et leur adaptation aux différents formats d'écran.",
+          "J'ai également participé à la <strong>création et à l'amélioration des contenus du site</strong> : photographies, textes, fiches produits et éléments liés au <strong>référencement naturel</strong>. Mon travail ne s'est donc pas limité à l'interface. J'ai dû réfléchir à la manière dont chaque contenu pouvait participer à la compréhension du produit et à l'expérience globale.",
+          "Le fait de travailler également en boutique m'a permis de <strong>relier mes choix digitaux à la réalité du commerce</strong>. Je pouvais mieux comprendre quels produits nécessitaient davantage d'explications, comment ils étaient présentés physiquement et quelles <strong>informations pouvaient être importantes pour les clientes</strong>."
         ]
       },
       {
@@ -297,9 +297,9 @@ window.portfolioProjects = [
         heading: "Shopify, photographie, responsive design et SEO",
         visualSlots: 0,
         paragraphs: [
-          "Shopify a été mon outil principal puisque j'ai travaillé directement sur le site existant. Cette contrainte m'a demandé d'adapter mes propositions aux possibilités du CMS et du thème utilisé, plutôt que de concevoir une interface impossible à reproduire techniquement.",
-          "J'ai également utilisé mes compétences en photographie et en retouche d'image pour travailler les visuels, ainsi que des principes de responsive design pour vérifier la cohérence des pages sur différents écrans.",
-          "Enfin, j'ai intégré des principes de SEO dans la rédaction et l'organisation de certains contenus afin que la refonte ne réponde pas uniquement à des objectifs visuels."
+          "<strong>Shopify</strong> a été mon outil principal puisque j'ai travaillé directement sur le site existant. Cette contrainte m'a demandé d'<strong>adapter mes propositions aux possibilités du CMS et du thème utilisé</strong>, plutôt que de concevoir une interface impossible à reproduire techniquement.",
+          "J'ai également utilisé mes compétences en <strong>photographie et en retouche d'image</strong> pour travailler les visuels, ainsi que des principes de <strong>responsive design</strong> pour vérifier la cohérence des pages sur différents écrans.",
+          "Enfin, j'ai intégré des <strong>principes de SEO</strong> dans la <strong>rédaction et l'organisation de certains contenus</strong> afin que la refonte ne réponde pas uniquement à des objectifs visuels."
         ]
       },
       {
@@ -320,9 +320,9 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "À l'issue de mon stage, le site avait évolué vers une présentation plus cohérente avec l'univers de Mademoiselle Azalée et une meilleure mise en valeur de ses produits.",
-          "Contrairement à un projet scolaire ou fictif, mes choix devaient ici répondre à des contraintes réelles : identité existante, catalogue de produits, fonctionnement de Shopify, besoins de la boutique et utilisation réelle du site par les clientes.",
-          "Le principal résultat pour moi est donc d'avoir participé à une refonte réellement mise en œuvre, plutôt que de produire uniquement des maquettes destinées à présenter une intention."
+          "À l'issue de mon stage, le site avait évolué vers une <strong>présentation plus cohérente</strong> avec l'univers de Mademoiselle Azalée et une <strong>meilleure mise en valeur de ses produits</strong>.",
+          "Contrairement à un projet scolaire ou fictif, mes choix devaient ici répondre à des <strong>contraintes réelles</strong> : identité existante, catalogue de produits, fonctionnement de Shopify, besoins de la boutique et <strong>utilisation réelle du site par les clientes</strong>.",
+          "Le principal résultat pour moi est donc d'avoir participé à une <strong>refonte réellement mise en œuvre</strong>, <strong>plutôt que de produire uniquement des maquettes</strong> destinées à présenter une intention."
         ]
       },
       {
@@ -330,10 +330,10 @@ window.portfolioProjects = [
         heading: "Comprendre qu'une refonte se construit à partir de l'existant",
         visualSlots: 0,
         paragraphs: [
-          "Ce projet m'a permis de découvrir la refonte d'un produit digital existant dans un contexte professionnel réel. J'ai appris qu'une refonte ne consiste pas forcément à tout modifier. Il faut d'abord comprendre ce qui fonctionne, identifier ce qui pose problème puis prioriser les changements qui apportent réellement quelque chose à l'expérience.",
-          "J'ai également appris à composer avec des contraintes techniques. Travailler directement sur Shopify m'a obligée à trouver un équilibre entre mes intentions de design et ce qu'il était réellement possible de mettre en place.",
-          "Cette expérience m'a aussi permis de développer mon autonomie. J'ai dû observer, analyser, proposer des améliorations puis les mettre en œuvre, tout en restant cohérente avec les besoins et l'identité de la boutique.",
-          "Enfin, le contact avec les clientes et mon expérience en magasin m'ont aidée à mieux comprendre l'importance du contexte utilisateur. Cette proximité avec le terrain m'a permis de ne pas réfléchir uniquement en tant que designer, mais aussi en fonction de la manière dont les produits sont réellement découverts, compris et achetés."
+          "Ce projet m'a permis de découvrir la refonte d'un produit digital existant dans un <strong>contexte professionnel réel</strong>. J'ai appris qu'une refonte ne consiste pas forcément à tout modifier. Il faut d'abord comprendre ce qui fonctionne, identifier ce qui pose problème puis <strong>prioriser les changements</strong> qui apportent réellement quelque chose à l'expérience.",
+          "J'ai également appris à <strong>composer avec des contraintes techniques</strong>. Travailler directement sur Shopify m'a obligée à <strong>trouver un équilibre entre mes intentions de design</strong> et ce qu'il était réellement possible de mettre en place.",
+          "Cette expérience m'a aussi permis de <strong>développer mon autonomie</strong>. J'ai dû <strong>observer, analyser, proposer des améliorations puis les mettre en œuvre</strong>, tout en restant cohérente avec les besoins et l'identité de la boutique.",
+          "Enfin, le contact avec les clientes et mon expérience en magasin m'ont aidée à mieux comprendre <strong>l'importance du contexte utilisateur</strong>. Cette proximité avec le terrain m'a permis de <strong>ne pas réfléchir uniquement en tant que designer</strong>, mais aussi en fonction de la manière dont les produits sont réellement découverts, compris et achetés."
         ]
       }
     ],
