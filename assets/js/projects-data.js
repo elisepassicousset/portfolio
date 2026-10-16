@@ -305,6 +305,20 @@ window.portfolioProjects = [
       {
         title: "Résultats",
         heading: "Une refonte réellement mise en œuvre dans un contexte professionnel",
+        visuals: [
+          {
+            src: "assets/images/projects/mademoiselle-azalee-resultats-accueil.png",
+            alt: "Page d'accueil du site Mademoiselle Azalée"
+          },
+          {
+            src: "assets/images/projects/mademoiselle-azalee-resultats-marque.png",
+            alt: "Présentation de l'histoire et des inspirations de Mademoiselle Azalée"
+          },
+          {
+            src: "assets/images/projects/mademoiselle-azalee-resultats-catalogue.png",
+            alt: "Catalogue des trousses de toilette sur la boutique Mademoiselle Azalée"
+          }
+        ],
         paragraphs: [
           "À l'issue de mon stage, le site avait évolué vers une présentation plus cohérente avec l'univers de Mademoiselle Azalée et une meilleure mise en valeur de ses produits.",
           "Contrairement à un projet scolaire ou fictif, mes choix devaient ici répondre à des contraintes réelles : identité existante, catalogue de produits, fonctionnement de Shopify, besoins de la boutique et utilisation réelle du site par les clientes.",
