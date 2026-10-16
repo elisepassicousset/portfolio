@@ -365,9 +365,9 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Pinus Esquirou est un projet réalisé lors de ma formation de Concepteur Designer UI à La Piscine. L'objectif était de concevoir l'identité et l'expérience digitale d'une marque en travaillant aussi bien sur son univers graphique que sur ses différents supports de communication.",
-          "J'ai choisi de construire ce projet autour de l'univers du pin et de la forêt, un sujet qui me tenait particulièrement à cœur. J'ai grandi entourée de pins et cet environnement fait partie de mon quotidien depuis longtemps. Il m'a donc semblé naturel de m'appuyer sur cet univers pour développer un projet personnel tout en travaillant sur une problématique de design.",
-          "Ce projet m'a amenée à réfléchir à la manière de construire une identité cohérente à partir d'un concept, puis de la décliner sur une interface digitale. L'enjeu était de ne pas travailler chaque élément séparément, mais de créer un ensemble reconnaissable et cohérent, de l'identité visuelle jusqu'à l'expérience proposée sur le site."
+          "Pinus Esquirou est un projet réalisé lors de ma formation de Concepteur Designer UI à La Piscine. L'objectif était de <strong>concevoir l'identité et l'expérience digitale d'une marque</strong> en travaillant aussi bien sur son univers graphique que sur ses <strong>différents supports de communication</strong>.",
+          "J'ai choisi de construire ce projet autour de l'univers du pin et de la forêt, <strong>un sujet qui me tenait particulièrement à cœur</strong>. <strong>J'ai grandi entourée de pins</strong> et cet environnement fait partie de mon quotidien depuis longtemps. Il m'a donc semblé naturel de m'appuyer sur cet univers pour développer un projet personnel tout en travaillant sur une problématique de design.",
+          "Ce projet m'a amenée à réfléchir à la manière de <strong>construire une identité cohérente à partir d'un concept</strong>, puis de la décliner sur une interface digitale. L'enjeu était de ne pas travailler chaque élément séparément, mais de <strong>créer un ensemble reconnaissable et cohérent</strong>, de l'identité visuelle jusqu'à l'expérience proposée sur le site."
         ]
       },
       {
@@ -381,10 +381,10 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "J'ai commencé par une phase de recherche afin de mieux définir l'univers du projet et la direction graphique à adopter. J'ai réalisé un benchmark et exploré différentes références visuelles avant de construire progressivement l'identité de Pinus Esquirou.",
-          "J'ai ensuite travaillé sur les éléments graphiques de la marque, notamment le logo, les couleurs, les typographies et les principes visuels permettant de créer un univers identifiable. Cette identité m'a servi de base pour concevoir les différents supports du projet.",
-          "Pour la partie digitale, j'ai réfléchi à l'organisation des contenus et à la navigation avant de concevoir les interfaces. J'ai travaillé sur la hiérarchie de l'information, la composition des pages et la cohérence entre les différents écrans.",
-          "J'ai ensuite décliné l'univers graphique sur l'ensemble de l'interface afin de conserver une continuité entre l'identité de la marque et son expérience digitale. Cette étape m'a demandé de trouver un équilibre entre expression graphique, lisibilité et compréhension des contenus."
+          "J'ai commencé par une <strong>phase de recherche</strong> afin de mieux définir l'univers du projet et la direction graphique à adopter. J'ai <strong>réalisé un benchmark</strong> et exploré <strong>différentes références visuelles</strong> avant de construire progressivement l'identité de Pinus Esquirou.",
+          "J'ai ensuite travaillé sur les éléments graphiques de la marque, notamment le <strong>logo, les couleurs, les typographies</strong> et les principes visuels permettant de <strong>créer un univers identifiable</strong>. Cette identité m'a servi de base pour concevoir les différents supports du projet.",
+          "Pour la partie digitale, j'ai réfléchi à <strong>l'organisation des contenus et à la navigation</strong> avant de concevoir les interfaces. J'ai travaillé sur <strong>la hiérarchie de l'information</strong>, la composition des pages et la cohérence entre les différents écrans.",
+          "J'ai ensuite décliné l'univers graphique sur l'ensemble de l'interface afin de <strong>conserver une continuité entre l'identité de la marque et son expérience digitale</strong>. Cette étape m'a demandé de trouver un <strong>équilibre entre expression graphique, lisibilité et compréhension des contenus</strong>."
         ]
       },
       {
@@ -392,8 +392,8 @@ window.portfolioProjects = [
         heading: "Illustrator, Adobe XD, InDesign et Procreate au service du projet",
         visualSlots: 0,
         paragraphs: [
-          "J'ai utilisé plusieurs outils selon les différentes étapes du projet. Illustrator m'a permis de travailler sur l'identité et les éléments graphiques, tandis que Adobe XD a été utilisé pour la conception des interfaces.",
-          "J'ai également utilisé InDesign pour certains supports de présentation et Procreate pour la création d'éléments graphiques et d'illustrations."
+          "J'ai utilisé plusieurs outils selon les différentes étapes du projet. <strong>Illustrator</strong> m'a permis de travailler sur l'identité et les éléments graphiques, tandis que <strong>Adobe XD</strong> a été utilisé pour la <strong>conception des interfaces</strong>.",
+          "J'ai également utilisé <strong>InDesign</strong> pour certains supports de présentation et <strong>Procreate</strong> pour la <strong>création d'éléments graphiques et d'illustrations</strong>."
         ]
       },
       {
@@ -414,8 +414,8 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Le projet a abouti à la création d'un univers de marque complet, décliné sur plusieurs supports et sur une expérience digitale.",
-          "L'identité visuelle et les interfaces ont été pensées comme un ensemble afin que l'utilisateur retrouve les mêmes codes graphiques tout au long de son expérience. Le projet m'a ainsi permis d'aller au-delà de la conception de quelques écrans isolés pour réfléchir à la cohérence globale d'une marque et de ses différents points de contact."
+          "Le projet a abouti à la <strong>création d'un univers de marque complet</strong>, décliné sur <strong>plusieurs supports et sur une expérience digitale</strong>.",
+          "L'identité visuelle et les interfaces ont été pensées comme un ensemble afin que l'utilisateur retrouve les mêmes codes graphiques tout au long de son expérience. Le projet m'a ainsi permis d'aller au-delà de la conception de quelques écrans isolés pour réfléchir à la <strong>cohérence globale d'une marque</strong> et de ses différents points de contact."
         ]
       },
       {
@@ -423,9 +423,9 @@ window.portfolioProjects = [
         heading: "Construire des règles graphiques solides et une démarche créative structurée",
         visualSlots: 0,
         paragraphs: [
-          "Pinus Esquirou m'a permis de comprendre l'importance de construire une identité avant de commencer à décliner des interfaces. J'ai appris à définir des règles graphiques suffisamment solides pour pouvoir les appliquer sur différents supports tout en conservant une cohérence visuelle.",
-          "Le projet m'a également fait progresser dans la conception d'interfaces, notamment sur la hiérarchie de l'information, la composition et la navigation. J'ai commencé à davantage réfléchir à la fonction de chaque élément plutôt qu'à son aspect graphique uniquement.",
-          "Enfin, ce projet m'a appris à mener une démarche créative de manière structurée : rechercher, explorer plusieurs pistes, faire des choix, construire une identité puis la décliner jusqu'à obtenir une solution cohérente."
+          "Pinus Esquirou m'a permis de comprendre l'importance de <strong>construire une identité avant de commencer à décliner des interfaces</strong>. J'ai appris à définir des <strong>règles graphiques suffisamment solides</strong> pour pouvoir les appliquer sur différents supports tout en conservant une cohérence visuelle.",
+          "Le projet m'a également fait progresser dans la conception d'interfaces, notamment sur <strong>la hiérarchie de l'information, la composition et la navigation</strong>. J'ai commencé à davantage <strong>réfléchir à la fonction de chaque élément</strong> plutôt qu'à son aspect graphique uniquement.",
+          "Enfin, ce projet m'a appris à <strong>mener une démarche créative de manière structurée</strong> : <strong>rechercher, explorer plusieurs pistes, faire des choix</strong>, construire une identité puis la décliner jusqu'à obtenir une solution cohérente."
         ]
       }
     ],
