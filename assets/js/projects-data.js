@@ -150,9 +150,9 @@ window.portfolioProjects = [
         title: "Contexte",
         heading: "Une refonte digitale réalisée en binôme pour la deuxième édition du festival",
         paragraphs: [
-          "The Y Festival est un projet étudiant auquel j'ai participé dans le cadre de la deuxième édition du festival. Le projet a été réalisé en binôme avec l'objectif de repenser l'univers digital de l'événement tout en conservant son identité et son logo existants.",
-          "Notre travail portait principalement sur la refonte complète du site internet. L'enjeu était de proposer une nouvelle direction visuelle, plus cohérente avec l'univers du festival, tout en facilitant l'accès aux informations essentielles comme la programmation, les artistes, les informations pratiques ou encore la présentation de l'événement.",
-          "Le projet ne s'est pas limité au digital. Nous avons également décliné cette nouvelle direction graphique sur différents supports de communication, avec la création d'une affiche destinée au print et au web ainsi que d'un visuel pour un t-shirt."
+          "The Y Festival est un projet étudiant auquel j'ai participé dans le cadre de la deuxième édition du festival. Le projet a été <strong>réalisé en binôme</strong> avec l'objectif de <strong>repenser l'univers digital de l'événement</strong> tout en conservant son identité et son logo existants.",
+          "Notre travail portait principalement sur la <strong>refonte complète du site internet</strong>. L'enjeu était de proposer une nouvelle direction visuelle, plus cohérente avec l'univers du festival, tout en <strong>facilitant l'accès aux informations essentielles</strong> comme la programmation, les artistes, les informations pratiques ou encore la présentation de l'événement.",
+          "Le projet ne s'est pas limité au digital. Nous avons également <strong>décliné cette nouvelle direction graphique</strong> sur différents supports de communication, avec la création d'<strong>une affiche destinée au print et au web</strong> ainsi que d'un visuel pour un t-shirt."
         ],
         visualSlots: 0
       },
@@ -170,11 +170,11 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Nous avons commencé par analyser l'identité existante du festival et les contenus nécessaires pour cette deuxième édition. Le logo a été conservé, mais nous avons fait évoluer l'univers graphique avec une nouvelle palette de couleurs et une direction visuelle pensée pour donner davantage de personnalité à l'événement.",
-          "Nous avons ensuite retravaillé l'ensemble de l'architecture et des pages du site. L'objectif était de hiérarchiser les informations et de construire des parcours permettant aux visiteurs de retrouver rapidement la programmation, les artistes et les informations liées au festival.",
-          "J'ai participé à la conception des wireframes puis des maquettes sur Figma, sur desktop et mobile. Nous avons également travaillé les interactions et les animations afin de ne pas présenter uniquement des écrans statiques, mais de montrer précisément le comportement attendu de l'interface.",
-          "Une attention particulière a été portée à la préparation des maquettes pour le développement. Les écrans, composants, comportements responsive et interactions devaient être suffisamment détaillés pour permettre aux développeurs de retranscrire correctement nos choix en code.",
-          "Enfin, nous avons décliné l'univers graphique du site sur les supports de communication de cette deuxième édition, notamment l'affiche print et web ainsi que le t-shirt du festival."
+          "Nous avons commencé par <strong>analyser l'identité existante</strong> du festival et les contenus nécessaires pour cette deuxième édition. Le logo a été conservé, mais nous avons fait évoluer l'univers graphique avec une <strong>nouvelle palette de couleurs</strong> et une direction visuelle pensée pour donner davantage de personnalité à l'événement.",
+          "Nous avons ensuite <strong>retravaillé l'ensemble de l'architecture et des pages du site</strong>. L'objectif était de <strong>hiérarchiser les informations</strong> et de construire des parcours permettant aux visiteurs de retrouver rapidement la programmation, les artistes et les informations liées au festival.",
+          "J'ai participé à la <strong>conception des wireframes puis des maquettes sur Figma</strong>, sur desktop et mobile. Nous avons également travaillé les <strong>interactions et les animations</strong> afin de ne pas présenter uniquement des écrans statiques, mais de montrer précisément le comportement attendu de l'interface.",
+          "Une attention particulière a été portée à la <strong>préparation des maquettes pour le développement</strong>. Les écrans, composants, <strong>comportements responsive et interactions</strong> devaient être suffisamment détaillés pour permettre aux développeurs de retranscrire correctement nos choix en code.",
+          "Enfin, nous avons <strong>décliné l'univers graphique du site</strong> sur les <strong>supports de communication</strong> de cette deuxième édition, notamment l'affiche print et web ainsi que le t-shirt du festival."
         ],
         visualSlots: 2
       },
@@ -188,9 +188,9 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Figma a été notre outil principal pour concevoir les wireframes, les interfaces desktop et mobile, les composants et le prototype interactif. Le travail sur les animations nous a permis de préciser le comportement de certains éléments et de mieux communiquer nos intentions aux développeurs.",
-          "La création des différents supports de communication nous a également amenées à travailler avec les outils Adobe pour adapter l'identité du festival aux contraintes du print et des différents formats digitaux.",
-          "Le travail en binôme a demandé de maintenir une cohérence entre nos différentes productions. Nous avons donc dû partager nos choix graphiques, organiser les fichiers et conserver les mêmes règles de conception tout au long du projet."
+          "<strong>Figma</strong> a été notre outil principal pour concevoir les wireframes, les interfaces desktop et mobile, les composants et le <strong>prototype interactif</strong>. Le travail sur les animations nous a permis de préciser le comportement de certains éléments et de mieux communiquer nos intentions aux développeurs.",
+          "La création des différents supports de communication nous a également amenées à travailler avec les <strong>outils Adobe</strong> pour adapter l'identité du festival aux <strong>contraintes du print</strong> et des différents formats digitaux.",
+          "Le travail en binôme a demandé de <strong>maintenir une cohérence</strong> entre nos différentes productions. Nous avons donc dû <strong>partager nos choix graphiques</strong>, organiser les fichiers et conserver les mêmes règles de conception tout au long du projet."
         ],
         visualSlots: 1
       },
@@ -212,9 +212,9 @@ window.portfolioProjects = [
           }
         ],
         paragraphs: [
-          "Le projet a abouti à une refonte complète du site de The Y Festival pour sa deuxième édition, avec une nouvelle direction graphique, une nouvelle palette de couleurs et des interfaces pensées pour le desktop et le mobile.",
-          "Les maquettes et prototypes réalisés sur Figma ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la structure des pages, le responsive et les animations.",
-          "Cette identité a ensuite été prolongée sur les supports de communication du festival avec la réalisation de l'affiche en formats print et web ainsi que d'un t-shirt, afin de conserver une cohérence visuelle entre l'expérience digitale et la communication de l'événement."
+          "Le projet a abouti à une <strong>refonte complète du site</strong> de The Y Festival pour sa deuxième édition, avec une nouvelle direction graphique, une nouvelle palette de couleurs et des <strong>interfaces pensées pour le desktop et le mobile</strong>.",
+          "Les <strong>maquettes et prototypes réalisés sur Figma</strong> ont permis de transmettre aux développeurs une vision précise du résultat attendu, notamment concernant la <strong>structure des pages, le responsive et les animations</strong>.",
+          "Cette identité a ensuite été prolongée sur les supports de communication du festival avec la réalisation de <strong>l'affiche en formats print et web</strong> ainsi que d'un t-shirt, afin de conserver une <strong>cohérence visuelle entre l'expérience digitale et la communication</strong> de l'événement."
         ],
         visualSlots: 3
       },
@@ -222,10 +222,10 @@ window.portfolioProjects = [
         title: "Ce que j'en retiens",
         heading: "Concevoir à plusieurs et penser au-delà de la maquette",
         paragraphs: [
-          "The Y Festival m'a permis de travailler sur un projet collectif dans lequel mes choix de conception devaient être compris et partagés avec ma binôme, mais également suffisamment documentés pour être retranscrits par une équipe de développement.",
-          "J'ai appris à aller plus loin que la réalisation d'une interface visuellement aboutie. Une maquette destinée à être développée doit préciser les comportements, les interactions, le responsive et les différents états des composants afin de limiter les interprétations lors de son intégration.",
-          "Ce projet m'a également permis de travailler la cohérence d'une identité sur plusieurs points de contact. Le site, l'affiche et le t-shirt devaient appartenir au même univers tout en répondant à des contraintes et des usages différents.",
-          "Il m'a enfin permis de renforcer ma capacité à concevoir en équipe, à confronter mes propositions à celles d'une autre designer et à construire une direction commune plutôt que de travailler uniquement à partir de mes propres choix."
+          "The Y Festival m'a permis de travailler sur un <strong>projet collectif</strong> dans lequel mes choix de conception devaient être compris et partagés avec ma binôme, mais également <strong>suffisamment documentés</strong> pour être retranscrits par une équipe de développement.",
+          "J'ai appris à aller plus loin que la réalisation d'une interface visuellement aboutie. Une maquette destinée à être développée doit préciser <strong>les comportements, les interactions, le responsive</strong> et les différents états des composants afin de <strong>limiter les interprétations</strong> lors de son intégration.",
+          "Ce projet m'a également permis de travailler la <strong>cohérence d'une identité sur plusieurs points de contact</strong>. Le site, l'affiche et le t-shirt devaient appartenir au même univers tout en répondant à des contraintes et des usages différents.",
+          "Il m'a enfin permis de renforcer ma capacité à <strong>concevoir en équipe</strong>, à confronter mes propositions à celles d'une autre designer et à <strong>construire une direction commune</strong> plutôt que de travailler uniquement à partir de mes propres choix."
         ],
         visualSlots: 0
       }
