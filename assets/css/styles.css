@@ -1279,7 +1279,7 @@ select {
 }
 
 .score-content p:not(.eyebrow) {
-  max-width: 920px;
+  max-width: none;
 }
 
 .score-visual-grid {
