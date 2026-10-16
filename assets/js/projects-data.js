@@ -357,6 +357,13 @@ window.portfolioProjects = [
       {
         title: "Contexte",
         heading: "Une identité et une expérience digitale inspirées par l'univers du pin et de la forêt",
+        visualSlots: 1,
+        visuals: [
+          {
+            src: "assets/images/projects/pinus-esquirou-contexte-pins.jpg",
+            alt: "Forêt de pins, inspiration du projet Pinus Esquirou"
+          }
+        ],
         paragraphs: [
           "Pinus Esquirou est un projet réalisé lors de ma formation de Concepteur Designer UI à La Piscine. L'objectif était de concevoir l'identité et l'expérience digitale d'une marque en travaillant aussi bien sur son univers graphique que sur ses différents supports de communication.",
           "J'ai choisi de construire ce projet autour de l'univers du pin et de la forêt, un sujet qui me tenait particulièrement à cœur. J'ai grandi entourée de pins et cet environnement fait partie de mon quotidien depuis longtemps. Il m'a donc semblé naturel de m'appuyer sur cet univers pour développer un projet personnel tout en travaillant sur une problématique de design.",
@@ -366,6 +373,13 @@ window.portfolioProjects = [
       {
         title: "Démarche",
         heading: "Construire une identité, puis la décliner dans une interface cohérente",
+        visualSlots: 1,
+        visuals: [
+          {
+            src: "assets/images/projects/pinus-esquirou-demarche-moodboard.jpg",
+            alt: "Moodboard Pinus Esquirou inspiré de la forêt landaise"
+          }
+        ],
         paragraphs: [
           "J'ai commencé par une phase de recherche afin de mieux définir l'univers du projet et la direction graphique à adopter. J'ai réalisé un benchmark et exploré différentes références visuelles avant de construire progressivement l'identité de Pinus Esquirou.",
           "J'ai ensuite travaillé sur les éléments graphiques de la marque, notamment le logo, les couleurs, les typographies et les principes visuels permettant de créer un univers identifiable. Cette identité m'a servi de base pour concevoir les différents supports du projet.",
@@ -376,6 +390,7 @@ window.portfolioProjects = [
       {
         title: "Outils",
         heading: "Illustrator, Adobe XD, InDesign et Procreate au service du projet",
+        visualSlots: 0,
         paragraphs: [
           "J'ai utilisé plusieurs outils selon les différentes étapes du projet. Illustrator m'a permis de travailler sur l'identité et les éléments graphiques, tandis que Adobe XD a été utilisé pour la conception des interfaces.",
           "J'ai également utilisé InDesign pour certains supports de présentation et Procreate pour la création d'éléments graphiques et d'illustrations."
@@ -384,6 +399,20 @@ window.portfolioProjects = [
       {
         title: "Résultats",
         heading: "Un univers de marque complet, des supports de communication à l'expérience digitale",
+        visuals: [
+          {
+            src: "assets/images/projects/pinus-esquirou-resultats-site.png",
+            alt: "Maquette du site Pinus Esquirou"
+          },
+          {
+            src: "assets/images/projects/pinus-esquirou-resultats-tote-bag.jpg",
+            alt: "Tote bag vert avec le logo Pinus Esquirou"
+          },
+          {
+            src: "assets/images/projects/pinus-esquirou-resultats-stickers.jpg",
+            alt: "Rouleau de stickers portant le logo Pinus Esquirou"
+          }
+        ],
         paragraphs: [
           "Le projet a abouti à la création d'un univers de marque complet, décliné sur plusieurs supports et sur une expérience digitale.",
           "L'identité visuelle et les interfaces ont été pensées comme un ensemble afin que l'utilisateur retrouve les mêmes codes graphiques tout au long de son expérience. Le projet m'a ainsi permis d'aller au-delà de la conception de quelques écrans isolés pour réfléchir à la cohérence globale d'une marque et de ses différents points de contact."
@@ -392,6 +421,7 @@ window.portfolioProjects = [
       {
         title: "Ce que j'en retiens",
         heading: "Construire des règles graphiques solides et une démarche créative structurée",
+        visualSlots: 0,
         paragraphs: [
           "Pinus Esquirou m'a permis de comprendre l'importance de construire une identité avant de commencer à décliner des interfaces. J'ai appris à définir des règles graphiques suffisamment solides pour pouvoir les appliquer sur différents supports tout en conservant une cohérence visuelle.",
           "Le projet m'a également fait progresser dans la conception d'interfaces, notamment sur la hiérarchie de l'information, la composition et la navigation. J'ai commencé à davantage réfléchir à la fonction de chaque élément plutôt qu'à son aspect graphique uniquement.",
