@@ -1593,7 +1593,7 @@ select {
   }
 
   .site-header {
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
   }
 
