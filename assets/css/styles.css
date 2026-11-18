@@ -1488,6 +1488,7 @@ select {
 .footer-contact {
   display: grid;
   gap: 8px;
+  justify-self: end;
   justify-items: start;
   color: var(--muted);
   font-style: normal;
@@ -1754,6 +1755,7 @@ select {
   }
 
   .footer-contact {
+    justify-self: start;
     justify-items: start;
   }
 }
