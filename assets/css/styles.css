@@ -1465,7 +1465,7 @@ select {
 .site-footer {
   display: grid;
   grid-template-columns: 1.2fr auto 1fr;
-  align-items: start;
+  align-items: center;
   justify-content: space-between;
   gap: 32px;
   width: min(calc(100% - 48px), var(--max-width));
@@ -1488,7 +1488,7 @@ select {
 .footer-contact {
   display: grid;
   gap: 8px;
-  justify-items: end;
+  justify-items: start;
   color: var(--muted);
   font-style: normal;
   font-size: var(--font-body);
