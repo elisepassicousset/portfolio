@@ -1494,6 +1494,25 @@ select {
   font-size: var(--font-body);
 }
 
+.footer-socials {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+}
+
+.footer-socials a:hover,
+.footer-socials a:focus-visible {
+  background: var(--red-soft);
+}
+
 .site-footer a {
   color: var(--red);
   font-size: var(--font-body);
